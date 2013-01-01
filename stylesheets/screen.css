@@ -1,0 +1,184 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 9, ../sass/screen.scss */
+* {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+}
+
+/* line 15, ../sass/screen.scss */
+body {
+  background: #222;
+  color: white;
+  padding: 40px 20px;
+}
+
+/* line 21, ../sass/screen.scss */
+.wrapper {
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+/* line 26, ../sass/screen.scss */
+p {
+  font-family: "freight-sans-pro",sans-serif;
+  color: white;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 33, ../sass/screen.scss */
+header {
+  margin: 20px 0;
+  text-align: center;
+}
+/* line 37, ../sass/screen.scss */
+header p {
+  color: #ccc;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+/* line 44, ../sass/screen.scss */
+h1 {
+  font-size: 80px;
+  font-family: "museo-slab";
+  letter-spacing: -0.05em;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+/* line 52, ../sass/screen.scss */
+.fb-button {
+  font-family: "museo-slab";
+  font-weight: 300;
+  text-shadow: 0 1px #000;
+  margin: 30px 0;
+  padding: 18px 35px;
+  background: blue;
+  display: inline-block;
+  background-color: #247acb;
+  border: 1px solid #03245e;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #247acb), color-stop(100%, #125897));
+  background-image: -webkit-linear-gradient(top, #247acb, #125897);
+  background-image: -moz-linear-gradient(top, #247acb, #125897);
+  background-image: -o-linear-gradient(top, #247acb, #125897);
+  background-image: linear-gradient(top, #247acb, #125897);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF247ACB', endColorstr='#FF125897');
+  -webkit-box-shadow: inset 0 0 0px 1px #327fd6, 0 3px 1px #111111;
+  -moz-box-shadow: inset 0 0 0px 1px #327fd6, 0 3px 1px #111111;
+  box-shadow: inset 0 0 0px 1px #327fd6, 0 3px 1px #111111;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 68, ../sass/screen.scss */
+#updates {
+  max-width: 500px;
+  float: left;
+}
+/* line 72, ../sass/screen.scss */
+#updates section {
+  background: white;
+  border-radius: 1px;
+  padding: 20px;
+  color: #000;
+}
+/* line 78, ../sass/screen.scss */
+#updates section h3 {
+  font-family: "museo-slab";
+  color: red;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+/* line 85, ../sass/screen.scss */
+#updates section p {
+  color: #000;
+  line-height: 18px;
+}
+
+/* line 92, ../sass/screen.scss */
+#supporters {
+  max-width: 460px;
+  float: right;
+}
+/* line 96, ../sass/screen.scss */
+#supporters img {
+  padding: 0 4px 4px 0px;
+  border-radius: 1px;
+}
