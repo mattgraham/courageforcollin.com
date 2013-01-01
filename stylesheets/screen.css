@@ -151,33 +151,34 @@ h1 {
 #updates {
   max-width: 500px;
   float: left;
+  margin-bottom: 20px;
 }
-/* line 72, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 #updates section {
   background: white;
   border-radius: 1px;
   padding: 20px;
   color: #000;
 }
-/* line 78, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 #updates section h3 {
   font-family: "museo-slab";
   color: red;
   font-size: 20px;
   margin-bottom: 10px;
 }
-/* line 85, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 #updates section p {
   color: #000;
   line-height: 18px;
 }
 
-/* line 92, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 #supporters {
   max-width: 460px;
   float: right;
 }
-/* line 96, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
 #supporters img {
   padding: 0 4px 4px 0px;
   border-radius: 1px;
