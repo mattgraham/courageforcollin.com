@@ -223,3 +223,13 @@ h1 {
   border-radius: 1px;
   width: 150px;
 }
+
+@media all and (max-width: 970) {
+  /* line 143, ../sass/screen.scss */
+  #updates {
+    min-width: 30px;
+    max-width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
