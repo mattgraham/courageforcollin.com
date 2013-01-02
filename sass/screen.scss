@@ -13,6 +13,7 @@
 }
 
 body {
+	font-family: "freight-sans-pro",sans-serif;
 	background: #222;
 	color: white;
 	padding: 40px 20px;
@@ -70,21 +71,31 @@ h1 {
 	float: left;
 	margin-bottom: 20px;
 
-	section {
+	#section {
 		background: white;
 		border-radius: 1px;
 		padding: 20px;
 		color: #000;
+		margin-bottom: 20px;
 
 		h3 {
 			font-family: "museo-slab";
-			color: red;
-			font-size: 20px;
+			color: #e43600;
+			font-size: 24px;
 			margin-bottom: 10px;
 		}
 
 		p {
 			color: #000;
+			line-height: 18px;
+		}
+
+		.quote {
+			background: #efefef;
+			display: block;
+			padding: 20px;
+			margin: 10px 0;
+			font-size: 13px;
 			line-height: 18px;
 		}
 	}
@@ -94,9 +105,24 @@ h1 {
 	max-width: 460px;
 	float: right;
 
+	h3 {
+		font-family: "museo-slab";
+		color: white;
+		font-size: 24px;
+		text-align: left;
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+
+	a {
+		text-align: right;
+		float: right;
+	}
+
 	img {
 		padding: 0 4px 4px 0px;
 		border-radius: 1px;
+		width: 150px;
 	}
 
 }
