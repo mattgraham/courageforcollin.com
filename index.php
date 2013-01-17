@@ -48,11 +48,11 @@
 
 				    $instagram = new Instagram('457f784dbf5b4580a4c256f84911cbc6');
 
-				    $tag = 'github';
+				    $tag = 'facebook';
 
 				    $media = $instagram->getTagMedia($tag);
 
-				    $limit = 21;
+				    $limit = 15;
 
 				    foreach(array_slice($media->data, 0, $limit) as $data)
 				    {
