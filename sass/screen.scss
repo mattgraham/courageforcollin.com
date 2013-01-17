@@ -149,8 +149,10 @@ h1 {
 
 	.instagram {
 		width: 150px;
-		padding: 1px;
+		padding: 2px;
 		border-radius: 1px;
+		float: left;
+		display: inline-block;
 	}
 }
 

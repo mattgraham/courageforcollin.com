@@ -236,25 +236,27 @@ h1 {
 /* line 150, ../sass/screen.scss */
 #supporters .instagram {
   width: 150px;
-  padding: 1px;
+  padding: 2px;
   border-radius: 1px;
+  float: left;
+  display: inline-block;
 }
 
 @media all and (max-width: 980) {
-  /* line 158, ../sass/screen.scss */
+  /* line 160, ../sass/screen.scss */
   #updates {
     min-width: 30px;
     max-width: 100%;
   }
 
-  /* line 163, ../sass/screen.scss */
+  /* line 165, ../sass/screen.scss */
   #supporters {
     float: none;
     max-width: 100%;
   }
 }
 @media all and (max-width: 500) {
-  /* line 171, ../sass/screen.scss */
+  /* line 173, ../sass/screen.scss */
   #supporters img {
     width: 100%;
     margin: 4px 0;
