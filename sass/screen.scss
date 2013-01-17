@@ -149,10 +149,8 @@ h1 {
 
 	.instagram {
 		width: 150px;
-		background: #f4f1de;
-		padding: 4px;
+		padding: 1px;
 		border-radius: 1px;
-		@include box-shadow(0 1px 4px rgba(#000,.9));
 	}
 }
 
