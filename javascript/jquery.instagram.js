@@ -30,7 +30,7 @@
     options && $.extend(settings, options);
 
     function createPhotoElement(photo) {
-      var image_url = photo.images.thumbnail.url;
+      var image_url = photo.images.standard_resolution.url;
 
       if (settings.image_size == 'low_resolution') {
         image_url = photo.images.low_resolution.url;
