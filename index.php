@@ -60,15 +60,12 @@
 				    // Set number of photos to show
 				    $limit = 21;
 
-				    // Set height and width for photos
-				    $size = '150';
-
 				    // Show results
 				    // Using for loop will cause error if there are less photos than the limit
 				    foreach(array_slice($media->data, 0, $limit) as $data)
 				    {
 				        // Show photo
-				        echo '<img src="'.$data->images->thumbnail->url.'" height="'.$size.'" width="'.$size.'" alt="SOME TEXT HERE">';
+				        echo '<img src="'.$data->images->thumbnail->url.'">';
 				    }
 				?>
 					<span id="more">View More</span>
