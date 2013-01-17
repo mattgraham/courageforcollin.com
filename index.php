@@ -35,36 +35,27 @@
 				<h3>"Tops Off" Supporters</h3>
 				<p>Several have wanted to show their support by taking off their top (hair people, we're talking about their hair). Tweet me your photo at <a href="#">@michigangraham</a> if you'd like to join the list.</p>
 				<img src="http://distilleryimage0.s3.amazonaws.com/7c8b3e6c595111e29a2a22000a1fb02b_7.jpg">
-				<img src="images/dom_trevino61.png" class="window">
-				<img src="images/rickalles.png" class="window">
+				<img src="images/dom_trevino61.png">
+				<img src="images/rickalles.png">
 				<br /><br />
 			</div>
 			<div id="supporters">
 				<h3>Instagram Supporters</h3>
 				<p>Join the Instagram supporters by using the hash tag <a href="#">#courageforcollin</a> in your photos that you're sharing for his support.</p>
+
 				<?php
-				    // Get class for Instagram
-				    // More examples here: https://github.com/cosenary/Instagram-PHP-API
 				    require_once 'instagram.class.php';
 
-				    // Initialize class with client_id
-				    // Register at http://instagram.com/developer/ and replace client_id with your own
 				    $instagram = new Instagram('457f784dbf5b4580a4c256f84911cbc6');
 
-				    // Set keyword for #hashtag
 				    $tag = 'github';
 
-				    // Get latest photos according to #hashtag keyword
 				    $media = $instagram->getTagMedia($tag);
 
-				    // Set number of photos to show
 				    $limit = 21;
 
-				    // Show results
-				    // Using for loop will cause error if there are less photos than the limit
 				    foreach(array_slice($media->data, 0, $limit) as $data)
 				    {
-				        // Show photo
 				        echo '<img src="'.$data->images->thumbnail->url.'">';
 				    }
 				?>
