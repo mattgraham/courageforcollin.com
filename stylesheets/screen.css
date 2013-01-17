@@ -88,15 +88,15 @@ body {
 /* line 22, ../sass/screen.scss */
 .wrapper {
   margin: 0 auto;
-  max-width: 980px;
+  max-width: 960px;
 }
 
 /* line 27, ../sass/screen.scss */
 p {
   font-family: "freight-sans-pro",sans-serif;
   color: white;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 /* line 34, ../sass/screen.scss */
@@ -160,7 +160,7 @@ h1 {
 
 /* line 77, ../sass/screen.scss */
 #updates {
-  max-width: 500px;
+  max-width: 480px;
   float: left;
   margin-bottom: 20px;
 }
@@ -199,37 +199,63 @@ h1 {
   max-width: 460px;
   margin-top: 10px;
   float: right;
+  margin-bottom: 20px;
 }
-/* line 117, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
+#supporters #more {
+  padding: 15px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  display: inline-block;
+}
+/* line 125, ../sass/screen.scss */
+#supporters #more:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+/* line 130, ../sass/screen.scss */
 #supporters h3 {
   font-family: "museo-slab";
   color: white;
   font-size: 24px;
   text-align: left;
   display: inline-block;
+  margin-bottom: 5px;
+}
+/* line 139, ../sass/screen.scss */
+#supporters p {
+  color: #777;
+  font-size: 16px;
   margin-bottom: 20px;
 }
-/* line 126, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 #supporters a {
-  text-align: right;
-  float: right;
-  margin-right: 10px;
   text-decoration: none;
   color: #ea7551;
 }
-/* line 134, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 #supporters img {
-  padding: 0 4px 4px 0px;
   border-radius: 1px;
   width: 150px;
 }
 
-@media all and (max-width: 970) {
-  /* line 143, ../sass/screen.scss */
+@media all and (max-width: 980) {
+  /* line 157, ../sass/screen.scss */
   #updates {
     min-width: 30px;
     max-width: 100%;
-    margin-left: 30px;
-    margin-right: 30px;
+  }
+
+  /* line 162, ../sass/screen.scss */
+  #supporters {
+    float: none;
+    max-width: 100%;
+  }
+}
+@media all and (max-width: 500) {
+  /* line 170, ../sass/screen.scss */
+  #supporters img {
+    width: 100%;
+    margin: 4px 0;
   }
 }
