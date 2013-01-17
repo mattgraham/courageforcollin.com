@@ -2,7 +2,44 @@
 <head>
 	<script type="text/javascript" src="//use.typekit.net/cuc6ksk.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="stylesheets/screen.css" />
+				<script type="text/javascript">
+				$(function(){
+				  var
+				    insta_container = $(".instagram")
+				  , insta_next_url
+
+				  insta_container.instagram({
+				      hash: 'github'
+				    , clientId : '457f784dbf5b4580a4c256f84911cbc6'
+				    , show : 18
+				    , onComplete : function (photos, data) {
+				      insta_next_url = data.pagination.next_url
+				    }
+				  })
+
+				  $('button').on('click', function(){
+				    var
+				      button = $(this)
+				    , text = button.text()
+
+				    if (button.text() != 'Loading...'){
+				      button.text('Loading...')
+				      insta_container.instagram({
+				          next_url : insta_next_url
+				        , show : 18
+				        , onComplete : function(photos, data) {
+				          insta_next_url = data.pagination.next_url
+				          button.text(text)
+				        }
+				      })
+				    }
+				  })
+				});
+				</script>
+		    <script src="javascript/jquery.instagram.js"></script>
 </head>
 	<body>
 		<header class="wrapper">
@@ -42,24 +79,9 @@
 			<div id="supporters">
 				<h3>Instagram Supporters</h3>
 				<p>Join the Instagram supporters by using the hash tag <a href="#">#courageforcollin</a> in your photos that you're sharing for his support.</p>
-
-				<?php
-				    require_once 'instagram.class.php';
-
-				    $instagram = new Instagram('457f784dbf5b4580a4c256f84911cbc6');
-
-				    $tag = 'facebook';
-
-				    $media = $instagram->getTagMedia($tag);
-
-				    $limit = 15;
-
-				    foreach(array_slice($media->data, 0, $limit) as $data)
-				    {
-				        echo '<img src="'.$data->images->thumbnail->url.'" class="instagram">';
-				    }
-				?>
-					<span id="more">View More</span>
+				<div class="instagram">
+				</div>
+				<button id="more">View More</button>
 			</div>
 			<div id="footer"></div>
 		</div>

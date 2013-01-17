@@ -200,20 +200,24 @@ h1 {
   margin-top: 10px;
   float: right;
   margin-bottom: 20px;
+  display: inline-block;
 }
-/* line 118, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 #supporters #more {
   padding: 15px;
   text-align: center;
   background: rgba(0, 0, 0, 0.2);
   width: 100%;
   display: inline-block;
+  border: none;
+  color: white;
+  font-size: 15px;
 }
-/* line 125, ../sass/screen.scss */
+/* line 129, ../sass/screen.scss */
 #supporters #more:hover {
   background: rgba(0, 0, 0, 0.1);
 }
-/* line 130, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 #supporters h3 {
   font-family: "museo-slab";
   color: white;
@@ -222,19 +226,19 @@ h1 {
   display: inline-block;
   margin-bottom: 5px;
 }
-/* line 139, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 #supporters p {
   color: #777;
   font-size: 16px;
   margin-bottom: 20px;
 }
-/* line 145, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 #supporters a {
   text-decoration: none;
   color: #ea7551;
 }
-/* line 150, ../sass/screen.scss */
-#supporters .instagram {
+/* line 154, ../sass/screen.scss */
+#supporters img {
   width: 150px;
   padding: 2px;
   border-radius: 1px;
@@ -243,20 +247,20 @@ h1 {
 }
 
 @media all and (max-width: 980) {
-  /* line 160, ../sass/screen.scss */
+  /* line 164, ../sass/screen.scss */
   #updates {
     min-width: 30px;
     max-width: 100%;
   }
 
-  /* line 165, ../sass/screen.scss */
+  /* line 169, ../sass/screen.scss */
   #supporters {
     float: none;
     max-width: 100%;
   }
 }
 @media all and (max-width: 500) {
-  /* line 173, ../sass/screen.scss */
+  /* line 177, ../sass/screen.scss */
   #supporters img {
     width: 100%;
     margin: 4px 0;

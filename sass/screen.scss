@@ -114,6 +114,7 @@ h1 {
 	margin-top: 10px;
 	float: right;
 	margin-bottom: 20px;
+	display: inline-block;
 
 	#more {
 		padding: 15px;
@@ -121,6 +122,9 @@ h1 {
 		background: rgba(#000, .2);
 		width: 100%;
 		display: inline-block;
+		border: none;
+		color: white;
+		font-size: 15px;
 
 		&:hover {
 			background: rgba(#000, .1);
@@ -147,7 +151,7 @@ h1 {
 		color: #ea7551;
 	}
 
-	.instagram {
+	img {
 		width: 150px;
 		padding: 2px;
 		border-radius: 1px;
