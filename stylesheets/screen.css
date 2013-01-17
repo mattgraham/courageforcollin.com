@@ -234,26 +234,31 @@ h1 {
   color: #ea7551;
 }
 /* line 150, ../sass/screen.scss */
-#supporters img {
-  border-radius: 1px;
+#supporters .instagram {
   width: 150px;
+  background: #f4f1de;
+  padding: 4px;
+  border-radius: 1px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
 }
 
 @media all and (max-width: 980) {
-  /* line 157, ../sass/screen.scss */
+  /* line 160, ../sass/screen.scss */
   #updates {
     min-width: 30px;
     max-width: 100%;
   }
 
-  /* line 162, ../sass/screen.scss */
+  /* line 165, ../sass/screen.scss */
   #supporters {
     float: none;
     max-width: 100%;
   }
 }
 @media all and (max-width: 500) {
-  /* line 170, ../sass/screen.scss */
+  /* line 173, ../sass/screen.scss */
   #supporters img {
     width: 100%;
     margin: 4px 0;

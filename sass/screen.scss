@@ -147,9 +147,12 @@ h1 {
 		color: #ea7551;
 	}
 
-	img {
-		border-radius: 1px;
+	.instagram {
 		width: 150px;
+		background: #f4f1de;
+		padding: 4px;
+		border-radius: 1px;
+		@include box-shadow(0 1px 4px rgba(#000,.9));
 	}
 }
 

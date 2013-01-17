@@ -34,9 +34,9 @@
 			<div id="supporters">
 				<h3>"Tops Off" Supporters</h3>
 				<p>Several have wanted to show their support by taking off their top (hair people, we're talking about their hair). Tweet me your photo at <a href="#">@michigangraham</a> if you'd like to join the list.</p>
-				<img src="http://distilleryimage0.s3.amazonaws.com/7c8b3e6c595111e29a2a22000a1fb02b_7.jpg">
-				<img src="images/dom_trevino61.png">
-				<img src="images/rickalles.png">
+				<img src="http://distilleryimage0.s3.amazonaws.com/7c8b3e6c595111e29a2a22000a1fb02b_7.jpg" class="instagram">
+				<img src="images/dom_trevino61.png" class="instagram">
+				<img src="images/rickalles.png" class="instagram">
 				<br /><br />
 			</div>
 			<div id="supporters">
@@ -56,7 +56,7 @@
 
 				    foreach(array_slice($media->data, 0, $limit) as $data)
 				    {
-				        echo '<img src="'.$data->images->thumbnail->url.'">';
+				        echo '<img src="'.$data->images->thumbnail->url.'" class="instagram">';
 				    }
 				?>
 					<span id="more">View More</span>
