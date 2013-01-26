@@ -14,7 +14,7 @@
 				  insta_container.instagram({
 				      hash: 'github'
 				    , clientId : '457f784dbf5b4580a4c256f84911cbc6'
-				    , show : 21
+				    , show : 19
 				    , onComplete : function (photos, data) {
 				      insta_next_url = data.pagination.next_url
 				    }
@@ -42,44 +42,60 @@
 		    <script src="javascript/jquery.instagram.js"></script>
 </head>
 	<body>
-		<header>
 
-			<h1>We've got your back Collin</h1>
-			<p>Our buddy Collin is battling cancer, so we're battling it with him. Let Collin and those fighting know you're praying and thinking of him, while getting updates on his progress.</p>
-
+		<header class="nine60">
+			<div class="Logo"><h1>Courage for Collin<h1></div>
+			<nav>
+				<li><a href="#">Collin's Story</a></li>
+				<li><a href="#">Insta'lovin</a></li>
+				<li><a href="#">News &amp Events</a></li>
+				<li><a href="#">Donate Now</a></li>
+			</nav>
 		</header>
 
-		<div class="wrapper">
-			<nav>
-				<li>Tops Off</li>
-				<li>Instagram Suporters</li>
-				<li>Latest Updates</li>
-			</nav>
-			<div id="updates">
-				<section>
-					<h3>Headed to Chemo</h3>
-					<p>In ac ligula vel sem rhoncus lobortis. Quisque dignissim arcu non arcu tempor tincidunt. Aenean dui dui, tempus eu ultrices et, dignissim id libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut convallis scelerisque nunc, vel rutrum odio luctus et. Praesent sodales, leo eget dictum porttitor, nisi diam imperdiet metus, non lobortis odio eros lobortis arcu. Maecenas pulvinar ornare viverra. Pellentesque in malesuada velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla sollicitudin laoreet molestie. Etiam facilisis risus et velit placerat ornare. Integer ac neque ante.</p>
-					<span class="quote">"This is going to be rough, but Collin is a fighter we're going to come out on the other side." - Matt Graham</span>
-				</section>
-			</div>
+		<div id="welcome" class="nine60">
+			<h2>Our buddy Collin is battling cancer,  that means we are also.</h2>
+			<span class="button">Donate Now</span>
+		</div>
 
-			<div id="supporters">
-				<h3>"Tops Off" Supporters</h3>
-				<p>Several have wanted to show their support by taking off their top (hair people, we're talking about their hair). Tweet me your photo at <a href="#">@michigangraham</a> if you'd like to join the list.</p>
-				<div class="image-float">
-					<img src="http://distilleryimage0.s3.amazonaws.com/7c8b3e6c595111e29a2a22000a1fb02b_7.jpg" class="instagram">
-					<img src="images/dom_trevino61.png" class="instagram">
-					<img src="images/rickalles.png" class="instagram">
-				</div>
+		<div id="story">
+			<div class="nine60">
+				<h2>Collin's Story</h2>
+				<img src="http://distilleryimage4.s3.amazonaws.com/3519635604c911e2be6a12313820455d_7.jpg">
+				<p>Collin Vani is a 16 year old native of Port Huron, MI and student at Port Huron High School who was recently diagnosed with Clear Cell Sarcoma of the Kidney. Days after the discovery had surgery to have one of his kidneys removed. He is currently in the long battle with chemotherapy and radiation treatments to ensure that we have battled through the cancer process.</p>
+				<p>Please pray for the recovery and healing process going on inside of Collin's body. We believe there is a good work happening in the midst of a painful season of the lives of the family. I'd also ask you to consider donating to the many expenses that the family will have during the next 6 months of travel to and from Detroit Childrens Hospital. Every bit can and will help. Lets help Collin battle.</p>
 			</div>
+		</div>
 
-			<div id="supporters">
-				<h3>Instagram Supporters</h3>
-				<p>Join the Instagram supporters by using the hash tag <a href="#">#courageforcollin</a> in your photos that you're sharing for his support.</p>
-				<div class="instagram">
+		<div id="instalovin">
+			<div class="nine60">
+				<h2>Insta'lovin</h2>
+				<p>Join the Instagram Insta'Lovin wall by  using the hash tag  <a href="http://instagram.com/#courageforcollin">#courageforcollin</a> in your Instagram photos that you're sharing.</p>
+				<div class="grid">
+					<div class="instagram">
+					</div>
 				</div>
 				<button id="more">View More</button>
 			</div>
+		</div>
+		<div id="news">
+			<h2>News &amp Events</h2>
+
+			<section>
+				<img src="#">
+				<span class="date">February 15, 2013</span>
+				<span class="title">Valentines Day for Vani</span>
+				<p>Valentines Day for Vani is a Teen Dance (14-18 yrs old) supporting Collin's battle with Cancer. Featuring DJ Illee, 50/50 Raffle, Food Specials, with all proceeds going to Collin's family.  Dance is from 8pm - 12am at the Angry Bull on 5078 Lapeer Ave., Kimball, MI (810) 966-9098 Cost is $10 at the door. </p>
+			</section>
+
+			<section>
+				<img src="#">
+				<span class="date">March 15, 2013</span>
+				<span class="title">Bowling for Collin</span>
+				<p>Valentines Day for Vani is a Teen Dance (14-18 yrs old) supporting Collin's battle with Cancer. Featuring DJ Illee, 50/50 Raffle, Food Specials, with all proceeds going to Collin's family.  Dance is from 8pm - 12am at the Angry Bull on 5078 Lapeer Ave., Kimball, MI (810) 966-9098 Cost is $10 at the door. </p>
+			</section>
+
+		</div>
 
 			<div id="footer"></div>
 		</div>
