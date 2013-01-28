@@ -5,41 +5,45 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="stylesheets/screen.css" />
-				<script type="text/javascript">
-				$(function(){
-				  var
-				    insta_container = $(".instagram")
-				  , insta_next_url
+	<!--[if IE]>
+	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 
-				  insta_container.instagram({
-				      hash: 'courageforcollin'
-				    , clientId : '457f784dbf5b4580a4c256f84911cbc6'
-				    , show : 19
-				    , onComplete : function (photos, data) {
-				      insta_next_url = data.pagination.next_url
-				    }
-				  })
+	<script type="text/javascript">
+	$(function(){
+	  var
+	    insta_container = $(".instagram")
+	  , insta_next_url
 
-				  $('button').on('click', function(){
-				    var
-				      button = $(this)
-				    , text = button.text()
+	  insta_container.instagram({
+	      hash: 'courageforcollin'
+	    , clientId : '457f784dbf5b4580a4c256f84911cbc6'
+	    , show : 19
+	    , onComplete : function (photos, data) {
+	      insta_next_url = data.pagination.next_url
+	    }
+	  })
 
-				    if (button.text() != 'Loading...'){
-				      button.text('Loading...')
-				      insta_container.instagram({
-				          next_url : insta_next_url
-				        , show : 15
-				        , onComplete : function(photos, data) {
-				          insta_next_url = data.pagination.next_url
-				          button.text(text)
-				        }
-				      })
-				    }
-				  })
-				});
-				</script>
-		    <script src="javascript/jquery.instagram.js"></script>
+	  $('button').on('click', function(){
+	    var
+	      button = $(this)
+	    , text = button.text()
+
+	    if (button.text() != 'Loading...'){
+	      button.text('Loading...')
+	      insta_container.instagram({
+	          next_url : insta_next_url
+	        , show : 15
+	        , onComplete : function(photos, data) {
+	          insta_next_url = data.pagination.next_url
+	          button.text(text)
+	        }
+	      })
+	    }
+	  })
+	});
+	</script>
+  <script src="javascript/jquery.instagram.js"></script>
 </head>
 	<body>
 
