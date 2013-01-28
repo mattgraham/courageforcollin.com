@@ -123,26 +123,30 @@ h2 {
 	margin-bottom: 20px;
 }
 
+#triangles {
+	background: url('/images/triangle-topper.png');
+	height: 22px;
+	display: inline-block;
+	width: 100%;
+}
+
 #story {
-	background: white;
+	background: #fbfbfb;
 	position: relative;
 	clear: both;
 	display: block;
-	padding: 20 0;
+	padding: 20px 0 40px;
+	overflow: hidden;
 
 	p {
 		color: #333;
 		max-width: 650px;
 		margin: 20px 20px 0px 20px;
-		position: relative;
 		float: left;
-		display: inline-block;
 	}
 
 	img {
-		position: relative;
 		float: left;
-		display: inline-block;
 		width: 225px;
 		border: 8px solid #fff;
 		@include border-radius(3px);
@@ -153,6 +157,8 @@ h2 {
 #instalovin {
 	text-align: center;
 	background: #f4f4f4;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
 	padding: 20 0;
 	clear: both;
 

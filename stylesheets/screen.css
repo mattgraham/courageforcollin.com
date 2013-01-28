@@ -210,27 +210,32 @@ h2 {
 }
 
 /* line 126, ../sass/screen.scss */
+#triangles {
+  background: url("/images/triangle-topper.png");
+  height: 22px;
+  display: inline-block;
+  width: 100%;
+}
+
+/* line 133, ../sass/screen.scss */
 #story {
-  background: white;
+  background: #fbfbfb;
   position: relative;
   clear: both;
   display: block;
-  padding: 20 0;
+  padding: 20px 0 40px;
+  overflow: hidden;
 }
-/* line 133, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 #story p {
   color: #333;
   max-width: 650px;
   margin: 20px 20px 0px 20px;
-  position: relative;
   float: left;
-  display: inline-block;
 }
-/* line 142, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 #story img {
-  position: relative;
   float: left;
-  display: inline-block;
   width: 225px;
   border: 8px solid #fff;
   -webkit-border-radius: 3px;
@@ -243,14 +248,16 @@ h2 {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 153, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 #instalovin {
   text-align: center;
   background: #f4f4f4;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
   padding: 20 0;
   clear: both;
 }
-/* line 159, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 #instalovin .instagram {
   display: inline-block;
   width: 100%;
@@ -265,7 +272,7 @@ h2 {
   -webkit-border-top-right-radius: 3px;
   border-top-right-radius: 3px;
 }
-/* line 169, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 #instalovin .instagram img {
   position: relative;
   float: left;
@@ -278,11 +285,11 @@ h2 {
   -moz-transition: all .25s ease-in-out;
   -webkit-transition: all .25s ease-in-out;
 }
-/* line 181, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 #instalovin .instagram img:hover {
   opacity: 1;
 }
-/* line 187, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 #instalovin #more {
   margin: 0;
   width: 100%;
@@ -304,7 +311,7 @@ h2 {
   font-size: 20px;
   font-family: "adelle",serif;
 }
-/* line 204, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 #instalovin #more:hover {
   background: #f9f9f9;
 }
