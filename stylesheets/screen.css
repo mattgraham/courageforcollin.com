@@ -273,7 +273,7 @@ h2.grey {
   background: #f4f4f4;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-  padding: 20 0;
+  padding: 20px 0;
   clear: both;
 }
 /* line 183, ../sass/screen.scss */
@@ -333,4 +333,14 @@ h2.grey {
 /* line 228, ../sass/screen.scss */
 #instalovin #more:hover {
   background: #f9f9f9;
+}
+
+/* line 234, ../sass/screen.scss */
+#news {
+  text-align: center;
+  background: #fbfbfb;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding: 20px 0;
+  clear: both;
 }
