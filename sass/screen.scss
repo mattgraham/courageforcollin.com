@@ -88,6 +88,7 @@ header {
 		letter-spacing: -0.03em;
 		font-weight: 100;
 		padding: 50px 20px 0px;
+		margin-bottom: 30px;
 	}
 
 	.button {
@@ -115,12 +116,29 @@ header {
 	}
 }
 
+.title-bar {
+	width: 100%;
+	border-bottom: 1px solid #b82121;
+	display: block;
+	margin-bottom: 30px;
+}
+
 h2 {
-	text-align: center;
 	font-family: "adelle",serif;
 	font-size: 40px;
 	color: #b82121;
-	margin-bottom: 20px;
+	display: inline-block;
+	margin-bottom: -20px;
+	padding: 0 20px;
+	text-align: center;
+
+	&.white {
+		background: #fbfbfb;
+	}
+
+	&.grey {
+		background: #f4f4f4;
+	}
 }
 
 #triangles {
@@ -132,17 +150,17 @@ h2 {
 
 #story {
 	background: #fbfbfb;
-	position: relative;
-	clear: both;
-	display: block;
 	padding: 20px 0 40px;
 	overflow: hidden;
+	clear: both;
+	text-align: center;
 
 	p {
 		color: #333;
 		max-width: 650px;
-		margin: 20px 20px 0px 20px;
+		margin: 20px 20px 0px 30px;
 		float: left;
+		text-align: left;
 	}
 
 	img {
@@ -195,7 +213,7 @@ h2 {
 			width: 100%;
 			background: #eee;
 			display: inline-block;
-			padding: 20px 0;
+			padding: 15px 0;
 			border: none;
 			border: 1px solid #ccc;
 			border-top: 1px solid #fff;

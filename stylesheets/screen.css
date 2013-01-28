@@ -161,8 +161,9 @@ header nav li + li {
   letter-spacing: -0.03em;
   font-weight: 100;
   padding: 50px 20px 0px;
+  margin-bottom: 30px;
 }
-/* line 93, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 #welcome .button {
   font-family: "adelle",serif;
   font-size: 20px;
@@ -192,7 +193,7 @@ header nav li + li {
   -moz-transition: background 0.25s ease-in-out;
   -webkit-transition: background 0.25s ease-in-out;
 }
-/* line 111, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 #welcome .button:hover {
   background: #247acb;
   -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(255, 255, 255, 0.15);
@@ -200,16 +201,34 @@ header nav li + li {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(255, 255, 255, 0.15);
 }
 
-/* line 118, ../sass/screen.scss */
-h2 {
-  text-align: center;
-  font-family: "adelle",serif;
-  font-size: 40px;
-  color: #b82121;
-  margin-bottom: 20px;
+/* line 119, ../sass/screen.scss */
+.title-bar {
+  width: 100%;
+  border-bottom: 1px solid #b82121;
+  display: block;
+  margin-bottom: 30px;
 }
 
 /* line 126, ../sass/screen.scss */
+h2 {
+  font-family: "adelle",serif;
+  font-size: 40px;
+  color: #b82121;
+  display: inline-block;
+  margin-bottom: -20px;
+  padding: 0 20px;
+  text-align: center;
+}
+/* line 135, ../sass/screen.scss */
+h2.white {
+  background: #fbfbfb;
+}
+/* line 139, ../sass/screen.scss */
+h2.grey {
+  background: #f4f4f4;
+}
+
+/* line 144, ../sass/screen.scss */
 #triangles {
   background: url("../images/triangle-topper.png");
   height: 22px;
@@ -217,23 +236,23 @@ h2 {
   width: 100%;
 }
 
-/* line 133, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 #story {
   background: #fbfbfb;
-  position: relative;
-  clear: both;
-  display: block;
   padding: 20px 0 40px;
   overflow: hidden;
+  clear: both;
+  text-align: center;
 }
-/* line 141, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 #story p {
   color: #333;
   max-width: 650px;
-  margin: 20px 20px 0px 20px;
+  margin: 20px 20px 0px 30px;
   float: left;
+  text-align: left;
 }
-/* line 148, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 #story img {
   float: left;
   width: 225px;
@@ -248,7 +267,7 @@ h2 {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 157, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 #instalovin {
   text-align: center;
   background: #f4f4f4;
@@ -257,7 +276,7 @@ h2 {
   padding: 20 0;
   clear: both;
 }
-/* line 165, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 #instalovin .instagram {
   display: inline-block;
   width: 100%;
@@ -272,7 +291,7 @@ h2 {
   -webkit-border-top-right-radius: 3px;
   border-top-right-radius: 3px;
 }
-/* line 175, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 #instalovin .instagram img {
   position: relative;
   float: left;
@@ -285,17 +304,17 @@ h2 {
   -moz-transition: all 0.25s ease-in-out;
   -webkit-transition: all 0.25s ease-in-out;
 }
-/* line 187, ../sass/screen.scss */
+/* line 205, ../sass/screen.scss */
 #instalovin .instagram img:hover {
   opacity: 1;
 }
-/* line 193, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 #instalovin #more {
   margin: 0;
   width: 100%;
   background: #eee;
   display: inline-block;
-  padding: 20px 0;
+  padding: 15px 0;
   border: none;
   border: 1px solid #cccccc;
   border-top: 1px solid white;
@@ -311,7 +330,7 @@ h2 {
   font-size: 20px;
   font-family: "adelle",serif;
 }
-/* line 210, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 #instalovin #more:hover {
   background: #f9f9f9;
 }
