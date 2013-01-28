@@ -167,7 +167,7 @@ header nav li + li {
   font-family: "adelle",serif;
   font-size: 20px;
   font-weight: 300;
-  text-shadow: 0 1px #000;
+  text-shadow: 0 1px black;
   padding: 18px 35px;
   background: blue;
   display: inline-block;
@@ -188,9 +188,9 @@ header nav li + li {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
-  transition: background .25s ease-in-out;
-  -moz-transition: background .25s ease-in-out;
-  -webkit-transition: background .25s ease-in-out;
+  transition: background 0.25s ease-in-out;
+  -moz-transition: background 0.25s ease-in-out;
+  -webkit-transition: background 0.25s ease-in-out;
 }
 /* line 111, ../sass/screen.scss */
 #welcome .button:hover {
@@ -211,7 +211,7 @@ h2 {
 
 /* line 126, ../sass/screen.scss */
 #triangles {
-  background: url("/images/triangle-topper.png");
+  background: url("../images/triangle-topper.png");
   height: 22px;
   display: inline-block;
   width: 100%;
@@ -237,7 +237,7 @@ h2 {
 #story img {
   float: left;
   width: 225px;
-  border: 8px solid #fff;
+  border: 8px solid white;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -252,8 +252,8 @@ h2 {
 #instalovin {
   text-align: center;
   background: #f4f4f4;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
   padding: 20 0;
   clear: both;
 }
@@ -264,7 +264,7 @@ h2 {
   background: #f9f9f9;
   margin: 20px 0 0;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   -moz-border-radius-topleft: 3px;
   -webkit-border-top-left-radius: 3px;
   border-top-left-radius: 3px;
@@ -281,9 +281,9 @@ h2 {
   margin: 0;
   padding: 0px;
   opacity: .90;
-  transition: all .25s ease-in-out;
-  -moz-transition: all .25s ease-in-out;
-  -webkit-transition: all .25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
 }
 /* line 187, ../sass/screen.scss */
 #instalovin .instagram img:hover {
@@ -297,17 +297,17 @@ h2 {
   display: inline-block;
   padding: 20px 0;
   border: none;
-  border: 1px solid #ccc;
-  border-top: 1px solid #fff;
+  border: 1px solid #cccccc;
+  border-top: 1px solid white;
   -moz-border-radius-bottomleft: 3px;
   -webkit-border-bottom-left-radius: 3px;
   border-bottom-left-radius: 3px;
   -moz-border-radius-bottomright: 3px;
   -webkit-border-bottom-right-radius: 3px;
   border-bottom-right-radius: 3px;
-  transition: background .25s ease-in-out;
-  -moz-transition: background .25s ease-in-out;
-  -webkit-transition: background .25s ease-in-out;
+  transition: background 0.25s ease-in-out;
+  -moz-transition: background 0.25s ease-in-out;
+  -webkit-transition: background 0.25s ease-in-out;
   font-size: 20px;
   font-family: "adelle",serif;
 }
