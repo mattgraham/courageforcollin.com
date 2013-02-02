@@ -287,27 +287,29 @@ h2.blue {
 
 /* line 194, ../sass/screen.scss */
 #instalovin {
-  background: #252525 url("/images/instagram-back.png") no-repeat center bottom;
+  background: #252525 url("/images/instagram-back.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
   text-align: center;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid black;
   padding: 60px 0;
   clear: both;
 }
-/* line 202, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 #instalovin .title-bar {
   border-bottom: 1px solid white;
 }
-/* line 206, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 #instalovin h2 {
   color: #fff;
 }
-/* line 210, ../sass/screen.scss */
+/* line 212, ../sass/screen.scss */
 #instalovin p {
   color: whiteSmoke;
   margin-bottom: 10px;
 }
-/* line 215, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 #instalovin .instagram {
   display: inline-block;
   width: 100%;
@@ -322,7 +324,7 @@ h2.blue {
   -webkit-border-top-right-radius: 3px;
   border-top-right-radius: 3px;
 }
-/* line 225, ../sass/screen.scss */
+/* line 227, ../sass/screen.scss */
 #instalovin .instagram img {
   position: relative;
   float: left;
@@ -335,11 +337,11 @@ h2.blue {
   -moz-transition: all 0.25s ease-in-out;
   -webkit-transition: all 0.25s ease-in-out;
 }
-/* line 237, ../sass/screen.scss */
+/* line 239, ../sass/screen.scss */
 #instalovin .instagram img:hover {
   opacity: 1;
 }
-/* line 243, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 #instalovin #more {
   margin: 0;
   width: 100%;
@@ -361,28 +363,30 @@ h2.blue {
   font-size: 20px;
   font-family: "adelle",serif;
 }
-/* line 260, ../sass/screen.scss */
+/* line 262, ../sass/screen.scss */
 #instalovin #more:hover {
   background: #f9f9f9;
 }
 
-/* line 266, ../sass/screen.scss */
+/* line 268, ../sass/screen.scss */
 #twitterigs {
-  background: #019ad2 url("/images/twitter-back.png") no-repeat center bottom;
+  background: #019ad2 url("/images/twitter-back.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
   padding: 60px 0;
   overflow: hidden;
   clear: both;
   text-align: center;
 }
-/* line 273, ../sass/screen.scss */
+/* line 277, ../sass/screen.scss */
 #twitterigs .title-bar {
   border-bottom: 1px solid white;
 }
-/* line 277, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 #twitterigs h2 {
   color: #fff;
 }
-/* line 281, ../sass/screen.scss */
+/* line 285, ../sass/screen.scss */
 #twitterigs p {
   font-size: 16px;
   line-height: 24px;
@@ -395,11 +399,11 @@ h2.blue {
   -o-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 290, ../sass/screen.scss */
+/* line 294, ../sass/screen.scss */
 #twitterigs a {
   color: #33ccff;
 }
-/* line 294, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 #twitterigs img {
   float: left;
   width: 32px;
@@ -415,7 +419,7 @@ h2.blue {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 304, ../sass/screen.scss */
+/* line 308, ../sass/screen.scss */
 #news {
   text-align: center;
   background: #fbfbfb;
@@ -425,14 +429,14 @@ h2.blue {
   clear: both;
   overflow: hidden;
 }
-/* line 313, ../sass/screen.scss */
+/* line 317, ../sass/screen.scss */
 #news section {
   text-align: left;
   max-width: 470px;
   float: left;
   padding: 20px 20px 0 0;
 }
-/* line 319, ../sass/screen.scss */
+/* line 323, ../sass/screen.scss */
 #news section p {
   font-size: 12px;
   line-height: 16px;
@@ -441,7 +445,7 @@ h2.blue {
   margin-top: 10px;
   float: right;
 }
-/* line 327, ../sass/screen.scss */
+/* line 331, ../sass/screen.scss */
 #news section p .date {
   font-family: "adelle",serif;
   color: #666;
@@ -450,7 +454,7 @@ h2.blue {
   display: block;
   font-weight: 300;
 }
-/* line 336, ../sass/screen.scss */
+/* line 340, ../sass/screen.scss */
 #news section p .title {
   font-family: "adelle",serif;
   color: #333;
@@ -459,7 +463,7 @@ h2.blue {
   margin-bottom: 10px;
   display: block;
 }
-/* line 345, ../sass/screen.scss */
+/* line 349, ../sass/screen.scss */
 #news section p img {
   margin-right: 20px;
   margin-bottom: 20px;
@@ -476,7 +480,7 @@ h2.blue {
   box-shadow: 0 0 0 1px #efefef, 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 358, ../sass/screen.scss */
+/* line 362, ../sass/screen.scss */
 #footer {
   padding: 40px;
 }
