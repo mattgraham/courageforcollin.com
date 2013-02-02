@@ -11,57 +11,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/stylesheets\/gradient.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/stylesheets\/gradient.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/images\/triangle-topper.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/triangle-topper.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/triangle-topper.png",
-      "initialSize" : 1323,
-      "fileType" : 8192
-    },
-    "\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/javascript\/scale.fix.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascript\/scale.fix.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascript\/scale.fix-ck.js",
-      "fileType" : 64
-    },
-    "\/javascript\/jquery.instagram.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascript\/jquery.instagram.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascript\/jquery.instagram-ck.js",
-      "fileType" : 64
-    },
     "\/stylesheets\/ie8-and-down.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -83,6 +32,59 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/images\/triangle-topper.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/triangle-topper.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/triangle-topper.png",
+      "initialSize" : 1323,
+      "fileType" : 8192
+    },
+    "\/javascript\/jquery.instagram-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascript\/jquery.instagram-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascript\/jquery.instagram-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/javascript\/jquery.instagram.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascript\/jquery.instagram.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascript\/jquery.instagram-ck.js",
+      "fileType" : 64
+    },
+    "\/javascript\/scale.fix.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascript\/scale.fix.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascript\/scale.fix-ck.js",
+      "fileType" : 64
+    },
     "\/sass\/gradient.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -95,16 +97,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/javascript\/jquery.instagram-ck.js" : {
+    "\/stylesheets\/gradient.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascript\/jquery.instagram-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascript\/jquery.instagram-ck-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/stylesheets\/gradient.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/config.rb" : {
       "ignoreWasSetByUser" : 0,
@@ -127,17 +127,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/javascript\/jquery.fittext-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascript\/jquery.fittext-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascript\/jquery.fittext-ck-ck.js",
-      "fileType" : 64
-    },
     "\/images\/header-background.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -158,6 +147,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/javascript\/jquery.fittext-ck.js",
+      "fileType" : 64
+    },
+    "\/javascript\/jquery.fittext-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascript\/jquery.fittext-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascript\/jquery.fittext-ck-ck.js",
       "fileType" : 64
     },
     "\/images\/instagram-back.png" : {
