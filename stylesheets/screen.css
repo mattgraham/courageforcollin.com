@@ -286,20 +286,19 @@ h2.blue {
 }
 
 /* line 194, ../sass/screen.scss */
-#love {
-  background: #252525;
-  background-image: url("/images/instagram-back.png");
-  background-repeat: no-repeat;
-  background-position: center bottom;
-}
-
-/* line 201, ../sass/screen.scss */
 #instalovin {
   text-align: center;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid black;
   padding: 60px 0;
   clear: both;
+}
+/* line 201, ../sass/screen.scss */
+#instalovin #love {
+  background: #252525;
+  background-image: url("/images/instagram-back.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 /* line 208, ../sass/screen.scss */
 #instalovin .title-bar {
