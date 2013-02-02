@@ -1,4 +1,5 @@
 #iewarning {
+	display: inline-block;
 	max-width: 980px;
 	margin: 0 auto;
 	margin-bottom: -20px;
@@ -17,4 +18,6 @@
 	float: right;
 }
 
-body {background:blue;}
+body {
+	background:blue;
+}
