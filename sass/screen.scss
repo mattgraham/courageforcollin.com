@@ -192,7 +192,8 @@ h2 {
 }
 
 #instalovin {
-	background: #252525 url('/images/instagram-back.png');
+	background: #252525;
+	background-image: url('/images/instagram-back.png');
 	background-repeat: no-repeat;
  	background-position: center bottom;
 	text-align: center;
