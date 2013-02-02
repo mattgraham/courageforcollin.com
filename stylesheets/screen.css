@@ -2,7 +2,6 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,50 +23,41 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 9, ../sass/screen.scss */
 * {
   -webkit-box-sizing: border-box;
   /* Safari/Chrome, other WebKit */
@@ -77,37 +67,31 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   /* Opera/IE 8+ */
 }
 
-/* line 15, ../sass/screen.scss */
 body {
   font-family: "adelle",serif;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAMUlEQVQIW2Pcr6T0nwEKvv37B2YxwgRhAlxMTBBBZAGwyq0KCmDtIBUwABZEFgBJAADy0xMCfZSkYwAAAABJRU5ErkJggg==);
   color: white;
 }
 
-/* line 21, ../sass/screen.scss */
 p {
   font-size: 14px;
   line-height: 20px;
   color: #333;
 }
 
-/* line 27, ../sass/screen.scss */
 a {
   color: #bf2222;
 }
-/* line 30, ../sass/screen.scss */
 a:hover {
   color: #e36464;
 }
 
-/* line 34, ../sass/screen.scss */
 .nine60 {
   max-width: 980px;
   padding: 0 20px;
   margin: 0 auto;
 }
 
-/* line 40, ../sass/screen.scss */
 header {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAMUlEQVQIW2Pcr6T0nwEKvv37B2YxwgRhAlxMTBBBZAGwyq0KCmDtIBUwABZEFgBJAADy0xMCfZSkYwAAAABJRU5ErkJggg==);
   opacity: .95;
@@ -118,24 +102,20 @@ header {
   right: 0;
   z-index: 999;
 }
-/* line 51, ../sass/screen.scss */
 header h1 {
   font-family: "adelle",serif;
   font-size: 24px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
   float: left;
 }
-/* line 58, ../sass/screen.scss */
 header nav {
   text-align: right;
   font-family: "adelle",serif;
   font-weight: 100;
 }
-/* line 63, ../sass/screen.scss */
 header nav ul {
   font-size: 0;
 }
-/* line 67, ../sass/screen.scss */
 header nav li {
   font-size: 15px;
   line-height: 20px;
@@ -143,7 +123,6 @@ header nav li {
   list-style: none;
   padding: 0px 20px;
 }
-/* line 74, ../sass/screen.scss */
 header nav li a {
   color: whiteSmoke;
   text-decoration: none;
@@ -153,18 +132,15 @@ header nav li a {
   -webkit-transition: all 0.15s ease-in-out;
   margin: 0px;
 }
-/* line 83, ../sass/screen.scss */
 header nav li a:hover {
   color: #ff9999;
 }
 
-/* line 91, ../sass/screen.scss */
 #welcome {
   margin-top: 80px;
   text-align: center;
   margin-bottom: 40px;
 }
-/* line 96, ../sass/screen.scss */
 #welcome h2 {
   font-family: "adelle",serif;
   color: #fff;
@@ -175,7 +151,6 @@ header nav li a:hover {
   padding: 50px 20px 0px;
   margin-bottom: 30px;
 }
-/* line 107, ../sass/screen.scss */
 #welcome .button {
   font-family: "adelle",serif;
   font-size: 20px;
@@ -205,7 +180,6 @@ header nav li a:hover {
   -moz-transition: background 0.25s ease-in-out;
   -webkit-transition: background 0.25s ease-in-out;
 }
-/* line 125, ../sass/screen.scss */
 #welcome .button:hover {
   background: #247acb;
   -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(255, 255, 255, 0.15);
@@ -213,7 +187,6 @@ header nav li a:hover {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(255, 255, 255, 0.15);
 }
 
-/* line 132, ../sass/screen.scss */
 .title-bar {
   width: 100%;
   border-bottom: 1px solid #b82121;
@@ -221,7 +194,6 @@ header nav li a:hover {
   margin-bottom: 40px;
 }
 
-/* line 139, ../sass/screen.scss */
 h2 {
   font-family: "adelle",serif;
   font-size: 40px;
@@ -231,21 +203,17 @@ h2 {
   padding: 0 20px;
   text-align: center;
 }
-/* line 148, ../sass/screen.scss */
 h2.white {
   background: #fbfbfb;
 }
-/* line 152, ../sass/screen.scss */
 h2.grey {
   background: #252525;
 }
-/* line 156, ../sass/screen.scss */
 h2.blue {
   background: #019ad2;
   color: #e1f7ff;
 }
 
-/* line 162, ../sass/screen.scss */
 #triangles {
   background: url("../images/triangle-topper.png");
   height: 22px;
@@ -253,7 +221,6 @@ h2.blue {
   width: 100%;
 }
 
-/* line 169, ../sass/screen.scss */
 #story {
   background: #fbfbfb;
   padding: 60px 0;
@@ -261,7 +228,6 @@ h2.blue {
   clear: both;
   text-align: center;
 }
-/* line 176, ../sass/screen.scss */
 #story p {
   font-size: 16px;
   line-height: 24px;
@@ -269,7 +235,6 @@ h2.blue {
   text-align: left;
   margin-bottom: 20px;
 }
-/* line 184, ../sass/screen.scss */
 #story img {
   float: left;
   width: 225px;
@@ -285,7 +250,6 @@ h2.blue {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 194, ../sass/screen.scss */
 #instalovin {
   background: #252525;
   background-image: url("/images/instagram-back.png");
@@ -297,20 +261,16 @@ h2.blue {
   padding: 60px 0;
   clear: both;
 }
-/* line 205, ../sass/screen.scss */
 #instalovin .title-bar {
   border-bottom: 1px solid white;
 }
-/* line 209, ../sass/screen.scss */
 #instalovin h2 {
   color: #fff;
 }
-/* line 213, ../sass/screen.scss */
 #instalovin p {
   color: whiteSmoke;
   margin-bottom: 10px;
 }
-/* line 218, ../sass/screen.scss */
 #instalovin .instagram {
   display: inline-block;
   width: 100%;
@@ -325,7 +285,6 @@ h2.blue {
   -webkit-border-top-right-radius: 3px;
   border-top-right-radius: 3px;
 }
-/* line 228, ../sass/screen.scss */
 #instalovin .instagram img {
   position: relative;
   float: left;
@@ -338,11 +297,9 @@ h2.blue {
   -moz-transition: all 0.25s ease-in-out;
   -webkit-transition: all 0.25s ease-in-out;
 }
-/* line 240, ../sass/screen.scss */
 #instalovin .instagram img:hover {
   opacity: 1;
 }
-/* line 246, ../sass/screen.scss */
 #instalovin #more {
   margin: 0;
   width: 100%;
@@ -364,12 +321,10 @@ h2.blue {
   font-size: 20px;
   font-family: "adelle",serif;
 }
-/* line 263, ../sass/screen.scss */
 #instalovin #more:hover {
   background: #f9f9f9;
 }
 
-/* line 269, ../sass/screen.scss */
 #twitterigs {
   background: #019ad2;
   background-image: url("/images/twitter-back.png");
@@ -380,15 +335,12 @@ h2.blue {
   clear: both;
   text-align: center;
 }
-/* line 279, ../sass/screen.scss */
 #twitterigs .title-bar {
   border-bottom: 1px solid white;
 }
-/* line 283, ../sass/screen.scss */
 #twitterigs h2 {
   color: #fff;
 }
-/* line 287, ../sass/screen.scss */
 #twitterigs p {
   font-size: 16px;
   line-height: 24px;
@@ -401,11 +353,9 @@ h2.blue {
   -o-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 296, ../sass/screen.scss */
 #twitterigs a {
   color: #33ccff;
 }
-/* line 300, ../sass/screen.scss */
 #twitterigs img {
   float: left;
   width: 32px;
@@ -421,7 +371,6 @@ h2.blue {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 310, ../sass/screen.scss */
 #news {
   text-align: center;
   background: #fbfbfb;
@@ -431,14 +380,12 @@ h2.blue {
   clear: both;
   overflow: hidden;
 }
-/* line 319, ../sass/screen.scss */
 #news section {
   text-align: left;
   max-width: 470px;
   float: left;
   padding: 20px 20px 0 0;
 }
-/* line 325, ../sass/screen.scss */
 #news section p {
   font-size: 12px;
   line-height: 16px;
@@ -447,7 +394,6 @@ h2.blue {
   margin-top: 10px;
   float: right;
 }
-/* line 333, ../sass/screen.scss */
 #news section p .date {
   font-family: "adelle",serif;
   color: #666;
@@ -456,7 +402,6 @@ h2.blue {
   display: block;
   font-weight: 300;
 }
-/* line 342, ../sass/screen.scss */
 #news section p .title {
   font-family: "adelle",serif;
   color: #333;
@@ -465,7 +410,6 @@ h2.blue {
   margin-bottom: 10px;
   display: block;
 }
-/* line 351, ../sass/screen.scss */
 #news section p img {
   margin-right: 20px;
   margin-bottom: 20px;
@@ -482,7 +426,6 @@ h2.blue {
   box-shadow: 0 0 0 1px #efefef, 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 364, ../sass/screen.scss */
 #footer {
   padding: 40px;
 }
