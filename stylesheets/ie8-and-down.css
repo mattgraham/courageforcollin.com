@@ -15,9 +15,6 @@
 }
 
 #nav {
+  text-align: right;
   float: right;
-}
-
-body {
-  background: blue;
 }
