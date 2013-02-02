@@ -252,7 +252,7 @@ h2.blue {
 
 #instalovin {
   background: #252525;
-  background-image: url("/images/instagram-back.png");
+  background-image: url("../images/instagram-back.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   text-align: center;
@@ -327,7 +327,7 @@ h2.blue {
 
 #twitterigs {
   background: #019ad2;
-  background-image: url("/images/twitter-back.png");
+  background-image: url("../images/twitter-back.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   padding: 60px 0;
