@@ -192,18 +192,15 @@ h2 {
 }
 
 #instalovin {
+	background: #252525;
+	background-image: url('/images/instagram-back.png');
+	background-repeat: no-repeat;
+ 	background-position: center bottom;
 	text-align: center;
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #000;
 	padding: 60px 0;
 	clear: both;
-
-#love {
-	background: #252525;
-	background-image: url('/images/instagram-back.png');
-	background-repeat: no-repeat;
- 	background-position: center bottom;
- }
 
 	.title-bar {
 		border-bottom: 1px solid #fff;
@@ -270,7 +267,8 @@ h2 {
 }
 
 #twitterigs {
-	background: #019ad2 url('/images/twitter-back.png');
+	background: #019ad2;
+	background-image: url('/images/twitter-back.png');
 	background-repeat: no-repeat;
  	background-position: center bottom;
 	padding: 60px 0;
