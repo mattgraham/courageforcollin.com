@@ -297,6 +297,10 @@ h2 {
 		color: #33ccff;
 	}
 
+ .twitter-follow-button {
+ 		margin-top: 20px;
+ }
+
 	img {
 		float: left;
 		width: 32px;
@@ -362,5 +366,19 @@ h2 {
 }
 
 #footer {
-	padding: 40px;
+	text-align: center;
+	background: #252525;
+	padding: 10px;
+		line-height: 30px;
+
+	p {
+		font-family: arial;
+		font-size: 12px;
+		line-height: 30px;
+		color: #777;
+
+	 .twitter-mention-button {
+ 			margin-bottom: -5px;
+		}
+	}
 }

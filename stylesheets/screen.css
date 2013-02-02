@@ -356,6 +356,9 @@ h2.blue {
 #twitterigs a {
   color: #33ccff;
 }
+#twitterigs .twitter-follow-button {
+  margin-top: 20px;
+}
 #twitterigs img {
   float: left;
   width: 32px;
@@ -427,5 +430,17 @@ h2.blue {
 }
 
 #footer {
-  padding: 40px;
+  text-align: center;
+  background: #252525;
+  padding: 10px;
+  line-height: 30px;
+}
+#footer p {
+  font-family: arial;
+  font-size: 12px;
+  line-height: 30px;
+  color: #777;
+}
+#footer p .twitter-mention-button {
+  margin-bottom: -5px;
 }
