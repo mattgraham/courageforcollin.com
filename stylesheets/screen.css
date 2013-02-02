@@ -319,7 +319,7 @@ h2.blue {
   -webkit-transition: background 0.25s ease-in-out;
   font-size: 20px;
   font-family: "adelle",serif;
-  margin: 0;
+  margin-top: -3px;
 }
 #instalovin #more:hover {
   background: #f9f9f9;
