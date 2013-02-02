@@ -42,15 +42,7 @@ a {
 }
 
 header {
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAMUlEQVQIW2Pcr6T0nwEKvv37B2YxwgRhAlxMTBBBZAGwyq0KCmDtIBUwABZEFgBJAADy0xMCfZSkYwAAAABJRU5ErkJggg==);
-	opacity: .95;
-	position: fixed;
 	padding: 20px;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 999;
-
 
 	h1 {
 		font-family: "adelle",serif;
@@ -93,7 +85,7 @@ header {
 }
 
 #welcome {
-	margin-top: 80px;
+	margin-top: 20px;
 	text-align: center;
 	margin-bottom: 40px;
 
@@ -205,6 +197,7 @@ h2 {
 	border-bottom: 1px solid #000;
 	padding: 60px 0;
 	clear: both;
+	color: #333;
 
 	.title-bar {
 		border-bottom: 1px solid #fff;
@@ -228,6 +221,11 @@ h2 {
 		border: 1px solid #ccc;
 		@include border-top-left-radius(3px);
 		@include border-top-right-radius(3px);
+
+		p {
+			color: #333;
+			padding: 20px;
+		}
 
 		img {
 			position: relative;
