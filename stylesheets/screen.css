@@ -158,7 +158,7 @@ header nav li a:hover {
   text-shadow: 0 1px black;
   padding: 18px 35px;
   background: blue;
-  display: inline-block;
+  display: block;
   background-color: #247acb;
   border: 1px solid #03245e;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #247acb), color-stop(100%, #125897));
