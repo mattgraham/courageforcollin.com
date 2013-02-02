@@ -18,6 +18,22 @@ body {
 	color: white;
 }
 
+#iewarning {
+	display: none;
+	max-width: 980px;
+	margin: 0 auto;
+	margin-bottom: -20px;
+	border-radius: 2px;
+	padding: 20px;
+	background: #ffea97;
+	border: 1px solid #ffcc00;
+	font-weight: 600;
+	color: #444;
+	text-align: center;
+	font-size: 15px;
+	line-height: 20px;
+}
+
 p {
 	font-size: 14px;
 	line-height: 20px;
@@ -69,7 +85,7 @@ header {
 	 		line-height: 20px;
 			display: inline-block;
 			list-style: none;
-			padding: 0px 20px;
+			padding: 0px 0 0 20px;
 
 			a {
 				color: whiteSmoke;
@@ -380,5 +396,17 @@ h2 {
 	 .twitter-mention-button {
  			margin-bottom: -5px;
 		}
+	}
+}
+
+@media all and (max-width: 750px) {
+  nav {
+		display: none;
+	}
+
+	h1 {
+		float: none;
+		text-align: center;
+		width: 100%;
 	}
 }
