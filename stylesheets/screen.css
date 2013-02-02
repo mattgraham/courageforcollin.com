@@ -109,16 +109,14 @@ a:hover {
 
 /* line 40, ../sass/screen.scss */
 header {
-  background: rgba(102, 0, 0, 0.95);
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAMUlEQVQIW2Pcr6T0nwEKvv37B2YxwgRhAlxMTBBBZAGwyq0KCmDtIBUwABZEFgBJAADy0xMCfZSkYwAAAABJRU5ErkJggg==);
+  opacity: .95;
   position: fixed;
   padding: 20px;
   top: 0;
   left: 0;
   right: 0;
   z-index: 999;
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px 0 #660000, inset 0 -1px 0 rgba(255, 255, 255, 0.1);
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px 0 #660000, inset 0 -1px 0 rgba(255, 255, 255, 0.1);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px 0 #660000, inset 0 -1px 0 rgba(255, 255, 255, 0.1);
 }
 /* line 51, ../sass/screen.scss */
 header h1 {
@@ -220,7 +218,7 @@ header nav li a:hover {
   width: 100%;
   border-bottom: 1px solid #b82121;
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 /* line 139, ../sass/screen.scss */
@@ -239,10 +237,15 @@ h2.white {
 }
 /* line 152, ../sass/screen.scss */
 h2.grey {
-  background: #f4f4f4;
+  background: #252525;
+}
+/* line 156, ../sass/screen.scss */
+h2.blue {
+  background: #019ad2;
+  color: #e1f7ff;
 }
 
-/* line 157, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 #triangles {
   background: url("../images/triangle-topper.png");
   height: 22px;
@@ -250,27 +253,28 @@ h2.grey {
   width: 100%;
 }
 
-/* line 164, ../sass/screen.scss */
+/* line 169, ../sass/screen.scss */
 #story {
   background: #fbfbfb;
-  padding: 40px 0;
+  padding: 60px 0;
   overflow: hidden;
   clear: both;
   text-align: center;
 }
-/* line 171, ../sass/screen.scss */
+/* line 176, ../sass/screen.scss */
 #story p {
+  font-size: 16px;
+  line-height: 24px;
   color: #333;
-  max-width: 650px;
-  margin: 20px 20px 0px 30px;
-  float: left;
   text-align: left;
+  margin-bottom: 20px;
 }
-/* line 179, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 #story img {
   float: left;
   width: 225px;
   border: 8px solid white;
+  margin: 0 30px 20px 0;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -281,16 +285,29 @@ h2.grey {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 188, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 #instalovin {
+  background: #252525 url("/images/instagram-back.png") no-repeat center bottom;
   text-align: center;
-  background: #f4f4f4;
   border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  padding: 20px 0;
+  border-bottom: 1px solid black;
+  padding: 60px 0;
   clear: both;
 }
-/* line 196, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
+#instalovin .title-bar {
+  border-bottom: 1px solid white;
+}
+/* line 206, ../sass/screen.scss */
+#instalovin h2 {
+  color: #fff;
+}
+/* line 210, ../sass/screen.scss */
+#instalovin p {
+  color: whiteSmoke;
+  margin-bottom: 10px;
+}
+/* line 215, ../sass/screen.scss */
 #instalovin .instagram {
   display: inline-block;
   width: 100%;
@@ -305,7 +322,7 @@ h2.grey {
   -webkit-border-top-right-radius: 3px;
   border-top-right-radius: 3px;
 }
-/* line 206, ../sass/screen.scss */
+/* line 225, ../sass/screen.scss */
 #instalovin .instagram img {
   position: relative;
   float: left;
@@ -318,11 +335,11 @@ h2.grey {
   -moz-transition: all 0.25s ease-in-out;
   -webkit-transition: all 0.25s ease-in-out;
 }
-/* line 218, ../sass/screen.scss */
+/* line 237, ../sass/screen.scss */
 #instalovin .instagram img:hover {
   opacity: 1;
 }
-/* line 224, ../sass/screen.scss */
+/* line 243, ../sass/screen.scss */
 #instalovin #more {
   margin: 0;
   width: 100%;
@@ -344,29 +361,78 @@ h2.grey {
   font-size: 20px;
   font-family: "adelle",serif;
 }
-/* line 241, ../sass/screen.scss */
+/* line 260, ../sass/screen.scss */
 #instalovin #more:hover {
   background: #f9f9f9;
 }
 
-/* line 247, ../sass/screen.scss */
+/* line 266, ../sass/screen.scss */
+#twitterigs {
+  background: #019ad2 url("/images/twitter-back.png") no-repeat center bottom;
+  padding: 60px 0;
+  overflow: hidden;
+  clear: both;
+  text-align: center;
+}
+/* line 273, ../sass/screen.scss */
+#twitterigs .title-bar {
+  border-bottom: 1px solid white;
+}
+/* line 277, ../sass/screen.scss */
+#twitterigs h2 {
+  color: #fff;
+}
+/* line 281, ../sass/screen.scss */
+#twitterigs p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+/* line 290, ../sass/screen.scss */
+#twitterigs a {
+  color: #33ccff;
+}
+/* line 294, ../sass/screen.scss */
+#twitterigs img {
+  float: left;
+  width: 32px;
+  border: 1px solid white;
+  margin: 0 30px 20px 0;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+  border-radius: 1px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* line 304, ../sass/screen.scss */
 #news {
   text-align: center;
   background: #fbfbfb;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-  padding: 20px 0 40px 0;
+  padding: 60px 0;
   clear: both;
   overflow: hidden;
 }
-/* line 256, ../sass/screen.scss */
+/* line 313, ../sass/screen.scss */
 #news section {
   text-align: left;
   max-width: 470px;
   float: left;
   padding: 20px 20px 0 0;
 }
-/* line 262, ../sass/screen.scss */
+/* line 319, ../sass/screen.scss */
 #news section p {
   font-size: 12px;
   line-height: 16px;
@@ -375,7 +441,7 @@ h2.grey {
   margin-top: 10px;
   float: right;
 }
-/* line 270, ../sass/screen.scss */
+/* line 327, ../sass/screen.scss */
 #news section p .date {
   font-family: "adelle",serif;
   color: #666;
@@ -384,7 +450,7 @@ h2.grey {
   display: block;
   font-weight: 300;
 }
-/* line 279, ../sass/screen.scss */
+/* line 336, ../sass/screen.scss */
 #news section p .title {
   font-family: "adelle",serif;
   color: #333;
@@ -393,7 +459,7 @@ h2.grey {
   margin-bottom: 10px;
   display: block;
 }
-/* line 288, ../sass/screen.scss */
+/* line 345, ../sass/screen.scss */
 #news section p img {
   margin-right: 20px;
   margin-bottom: 20px;
@@ -410,7 +476,7 @@ h2.grey {
   box-shadow: 0 0 0 1px #efefef, 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 301, ../sass/screen.scss */
+/* line 358, ../sass/screen.scss */
 #footer {
   padding: 40px;
 }
