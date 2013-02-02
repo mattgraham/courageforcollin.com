@@ -11,12 +11,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/stylesheets\/ie8-and-down.css" : {
+    "\/stylesheets\/gradient.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/stylesheets\/ie8-and-down.css",
+      "inputAbbreviatedPath" : "\/stylesheets\/gradient.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -31,18 +31,6 @@
       "initialSize" : 1323,
       "fileType" : 8192
     },
-    "\/sass\/ie8-and-down.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/ie8-and-down.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/ie8-and-down.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -51,17 +39,6 @@
       "inputAbbreviatedPath" : "\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/javascript\/jquery.instagram-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascript\/jquery.instagram-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascript\/jquery.instagram-ck-ck.js",
-      "fileType" : 64
     },
     "\/javascript\/scale.fix.js" : {
       "ignoreWasSetByUser" : 0,
@@ -85,6 +62,27 @@
       "outputAbbreviatedPath" : "\/javascript\/jquery.instagram-ck.js",
       "fileType" : 64
     },
+    "\/stylesheets\/ie8-and-down.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/stylesheets\/ie8-and-down.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/sass\/ie8-and-down.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/ie8-and-down.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylesheets\/ie8-and-down.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/sass\/gradient.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -97,14 +95,25 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/stylesheets\/gradient.css" : {
+    "\/javascript\/jquery.instagram-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/stylesheets\/gradient.css",
+      "inputAbbreviatedPath" : "\/javascript\/jquery.instagram-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascript\/jquery.instagram-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/config.rb" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/config.rb",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "fileType" : 32768
     },
     "\/sass\/screen.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -118,14 +127,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/config.rb" : {
+    "\/javascript\/jquery.fittext-ck.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/config.rb",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 32768
+      "inputAbbreviatedPath" : "\/javascript\/jquery.fittext-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascript\/jquery.fittext-ck-ck.js",
+      "fileType" : 64
     },
     "\/images\/header-background.png" : {
       "ignoreWasSetByUser" : 0,
@@ -147,17 +158,6 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/javascript\/jquery.fittext-ck.js",
-      "fileType" : 64
-    },
-    "\/javascript\/jquery.fittext-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascript\/jquery.fittext-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascript\/jquery.fittext-ck-ck.js",
       "fileType" : 64
     },
     "\/images\/instagram-back.png" : {
