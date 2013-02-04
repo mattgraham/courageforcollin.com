@@ -392,11 +392,7 @@ h2.blue {
   line-height: 16px;
   font-family: Arial;
   color: #666;
-  margin-top: 20px;
   display: inline-block;
-  -webkit-box-shadow: inset 0 -1px 0px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0 -1px 0px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 -1px 0px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.05);
 }
 #news section .date {
   font-family: "adelle",serif;
@@ -428,6 +424,12 @@ h2.blue {
   -webkit-box-shadow: 0 0 0 1px #efefef, 0 1px 2px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 0 0 1px #efefef, 0 1px 2px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 0 1px #efefef, 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+#news section + section {
+  -webkit-box-shadow: 0 -1px 0px rgba(0, 0, 0, 0.2), 0 0px 0 white;
+  -moz-box-shadow: 0 -1px 0px rgba(0, 0, 0, 0.2), 0 0px 0 white;
+  box-shadow: 0 -1px 0px rgba(0, 0, 0, 0.2), 0 0px 0 white;
+  padding-top: 40px;
 }
 
 #footer {
@@ -474,10 +476,22 @@ h2.blue {
     top: -15px;
   }
 
+  #story {
+    padding: 10px 0;
+  }
+  #story h2 {
+    font-size: 28px;
+  }
   #story img {
     width: 100%;
   }
 
+  #instalovin {
+    padding: 10px 0;
+  }
+  #instalovin h2 {
+    font-size: 28px;
+  }
   #instalovin .instagram img {
     width: 100%;
     margin-bottom: 1px;
@@ -485,6 +499,19 @@ h2.blue {
     display: block;
   }
 
+  #twitterigs {
+    padding: 10px 0;
+  }
+  #twitterigs h2 {
+    font-size: 28px;
+  }
+
+  #news {
+    padding: 10px 0;
+  }
+  #news h2 {
+    font-size: 28px;
+  }
   #news section {
     max-width: 100%;
   }
