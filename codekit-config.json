@@ -20,6 +20,27 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/sass\/ie8-and-down.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/ie8-and-down.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylesheets\/ie8-and-down.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/javascript\/jquery.instagram.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -31,24 +52,15 @@
       "outputAbbreviatedPath" : "\/javascript\/jquery.instagram-ck.js",
       "fileType" : 64
     },
-    "\/index.html" : {
+    "\/javascript\/jquery.instagram-ck.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/javascript\/scale.fix.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascript\/scale.fix.js",
+      "inputAbbreviatedPath" : "\/javascript\/jquery.instagram-ck.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascript\/scale.fix-ck.js",
+      "outputAbbreviatedPath" : "\/javascript\/jquery.instagram-ck-ck.js",
       "fileType" : 64
     },
     "\/stylesheets\/ie8-and-down.css" : {
@@ -60,26 +72,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/images\/triangle-topper.png" : {
+    "\/javascript\/scale.fix.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/triangle-topper.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/triangle-topper.png",
-      "initialSize" : 1323,
-      "fileType" : 8192
-    },
-    "\/javascript\/jquery.instagram-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascript\/jquery.instagram-ck.js",
+      "inputAbbreviatedPath" : "\/javascript\/scale.fix.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascript\/jquery.instagram-ck-ck.js",
+      "outputAbbreviatedPath" : "\/javascript\/scale.fix-ck.js",
       "fileType" : 64
     },
     "\/sass\/gradient.scss" : {
@@ -94,17 +95,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/ie8-and-down.scss" : {
+    "\/images\/triangle-topper.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/ie8-and-down.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/ie8-and-down.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/images\/triangle-topper.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/triangle-topper.png",
+      "initialSize" : 1323,
+      "fileType" : 8192
     },
     "\/config.rb" : {
       "ignoreWasSetByUser" : 0,
