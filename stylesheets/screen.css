@@ -134,9 +134,8 @@ header nav li a:hover {
 }
 
 #welcome {
-  margin-top: 20px;
   text-align: center;
-  margin-bottom: 40px;
+  margin: 30px auto;
 }
 #welcome h2 {
   font-family: "adelle",serif;
@@ -145,7 +144,6 @@ header nav li a:hover {
   font-style: italic;
   letter-spacing: -0.03em;
   font-weight: 100;
-  padding: 50px 20px 0px;
   margin-bottom: 30px;
 }
 #welcome .button {
@@ -199,6 +197,8 @@ h2 {
   margin-bottom: -20px;
   padding: 0 20px;
   text-align: center;
+  position: relative;
+  top: 15px;
 }
 h2.white {
   background: #fbfbfb;
@@ -220,7 +220,7 @@ h2.blue {
 
 #story {
   background: #fbfbfb;
-  padding: 60px 0;
+  padding: 40px 0;
   overflow: hidden;
   clear: both;
   text-align: center;
@@ -255,7 +255,7 @@ h2.blue {
   text-align: center;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid black;
-  padding: 60px 0;
+  padding: 40px 0;
   clear: both;
   color: #333;
 }
@@ -332,7 +332,7 @@ h2.blue {
   background-image: url("../images/twitter-back.png");
   background-repeat: no-repeat;
   background-position: center bottom;
-  padding: 60px 0;
+  padding: 40px 0;
   overflow: hidden;
   clear: both;
   text-align: center;
@@ -381,25 +381,24 @@ h2.blue {
   background: #fbfbfb;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-  padding: 60px 0;
+  padding: 40px 0;
   clear: both;
   overflow: hidden;
 }
 #news section {
+  padding: 20px;
   text-align: left;
-  max-width: 470px;
-  float: left;
-  padding: 20px 20px 0 0;
-}
-#news section p {
   font-size: 12px;
   line-height: 16px;
   font-family: Arial;
   color: #666;
-  margin-top: 10px;
-  float: right;
+  margin-top: 20px;
+  display: inline-block;
+  -webkit-box-shadow: inset 0 -1px 0px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 -1px 0px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 -1px 0px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.05);
 }
-#news section p .date {
+#news section .date {
   font-family: "adelle",serif;
   color: #666;
   font-size: 17px;
@@ -407,7 +406,7 @@ h2.blue {
   display: block;
   font-weight: 300;
 }
-#news section p .title {
+#news section .title {
   font-family: "adelle",serif;
   color: #333;
   font-size: 26px;
@@ -415,8 +414,8 @@ h2.blue {
   margin-bottom: 10px;
   display: block;
 }
-#news section p img {
-  margin-right: 20px;
+#news section img {
+  margin-right: 30px;
   margin-bottom: 20px;
   float: left;
   max-width: 170px;
@@ -434,7 +433,7 @@ h2.blue {
 #footer {
   text-align: center;
   background: #252525;
-  padding: 20px;
+  padding: 10px;
   line-height: 30px;
 }
 #footer p {
@@ -447,6 +446,56 @@ h2.blue {
   margin-bottom: -5px;
 }
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  nav {
+    display: none;
+  }
+
+  header {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  header h1 {
+    float: none;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  #welcome {
+    padding: 0;
+  }
+  #welcome h2 {
+    padding: 20px;
+    font-size: 34px;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    top: -15px;
+  }
+
+  #story img {
+    width: 100%;
+  }
+
+  #instalovin .instagram img {
+    margin-bottom: 1px;
+  }
+
+  #news section {
+    max-width: 100%;
+  }
+  #news section img {
+    text-align: center;
+    max-width: 100%;
+    float: none;
+    display: block;
+  }
+
+  #footer {
+    padding-bottom: 50px;
+  }
+}
 @media all and (max-width: 750px) {
   nav {
     display: none;
