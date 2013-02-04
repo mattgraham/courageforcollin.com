@@ -145,6 +145,7 @@ header nav li a:hover {
   letter-spacing: -0.03em;
   font-weight: 100;
   margin-bottom: 30px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
 #welcome .button {
   font-family: "adelle",serif;
@@ -327,7 +328,7 @@ h2.blue {
   background: #f9f9f9;
 }
 
-#twitterigs {
+#twitterings {
   background: #019ad2;
   background-image: url("../images/twitter-back.png");
   background-repeat: no-repeat;
@@ -337,13 +338,13 @@ h2.blue {
   clear: both;
   text-align: center;
 }
-#twitterigs .title-bar {
+#twitterings .title-bar {
   border-bottom: 1px solid white;
 }
-#twitterigs h2 {
+#twitterings h2 {
   color: #fff;
 }
-#twitterigs p {
+#twitterings p {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
@@ -355,13 +356,13 @@ h2.blue {
   -o-border-radius: 2px;
   border-radius: 2px;
 }
-#twitterigs a {
+#twitterings a {
   color: #33ccff;
 }
-#twitterigs .twitter-follow-button {
+#twitterings .twitter-follow-button {
   margin-top: 20px;
 }
-#twitterigs img {
+#twitterings img {
   float: left;
   width: 32px;
   border: 1px solid white;
@@ -388,8 +389,8 @@ h2.blue {
 #news section {
   padding: 20px;
   text-align: left;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 13px;
+  line-height: 20px;
   font-family: Arial;
   color: #666;
   display: inline-block;
@@ -499,10 +500,10 @@ h2.blue {
     display: block;
   }
 
-  #twitterigs {
+  #twitterings {
     padding: 10px 0;
   }
-  #twitterigs h2 {
+  #twitterings h2 {
     font-size: 28px;
   }
 
