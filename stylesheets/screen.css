@@ -481,6 +481,8 @@ h2.blue {
   #instalovin .instagram img {
     width: 100%;
     margin-bottom: 1px;
+    float: none;
+    display: block;
   }
 
   #news section {
