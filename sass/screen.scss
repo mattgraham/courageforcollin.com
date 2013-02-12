@@ -43,6 +43,15 @@ a {
 
 header {
 	padding: 20px;
+	background-color: #212121;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(33, 33, 33)), to(rgb(34, 34, 34)));
+	background-image: -webkit-linear-gradient(top, rgb(33, 33, 33), rgb(34, 34, 34));
+	background-image: -moz-linear-gradient(top, rgb(33, 33, 33), rgb(34, 34, 34));
+	background-image: -o-linear-gradient(top, rgb(33, 33, 33), rgb(34, 34, 34));
+	background-image: -ms-linear-gradient(top, rgb(33, 33, 33), rgb(34, 34, 34));
+	background-image: linear-gradient(top, rgb(33, 33, 33), rgb(34, 34, 34));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#212121', EndColorStr='#222222');
+	@include box-shadow(0 1px 0px #000, 0 1px 3px rgba(#000, .6));
 
 	h1 {
 		font-family: "adelle",serif;
@@ -53,7 +62,7 @@ header {
 
 	nav {
 		text-align: right;
-		font-family: "adelle",serif;
+		font-family: Arial, sans-serif;
  		font-weight: 100;
 
  		ul {
@@ -87,6 +96,11 @@ header {
 #welcome {
 	text-align: center;
 	margin: 30px auto;
+	padding: 0;
+
+	img {
+		max-width: 100%;
+	}
 
 	h2 {
  		font-family: "adelle",serif;
@@ -326,27 +340,27 @@ h2 {
 	section {
 		padding: 20px;
 		text-align: left;
-		font-size: 13px;
+		font-size: 15px;
 		line-height: 20px;
 		font-family: Arial;
-		color: #666;
+		color: #555;
 		display: inline-block;
 
 		.date {
 	 		font-family: "adelle",serif;
-			color: #666;
-			font-size: 17px;
-			line-height: 26px;
+			color: #555;
+			font-size: 18px;
+			line-height: 30px;
 			display: block;
-			font-weight: 300;
+			font-weight: 500;
+			margin-bottom: 10px;
 		}
 
 		.title {
 	 		font-family: "adelle",serif;
-			color: #333;
-			font-size: 26px;
+			color: #b82121;
+			font-size: 32px;
 			line-height: 28px;
-			margin-bottom: 10px;
 			display: block;
 		}
 
@@ -394,7 +408,6 @@ and (max-device-width : 480px) {
 	}
 
 	header {
-		background: rgba(0,0,0,.2);
 
 		h1 {
 			float: none;
@@ -406,6 +419,11 @@ and (max-device-width : 480px) {
 
 	#welcome {
 		padding: 0;
+
+		img {
+			max-width: 130%;
+			margin-left: -15%;
+		}
 
 		h2 {
 			padding: 20px;
@@ -479,6 +497,10 @@ and (max-device-width : 480px) {
 
 
 @media all and (max-width: 750px) {
+	header {
+		height: 60px;
+	}
+
   nav {
 		display: none;
 	}
