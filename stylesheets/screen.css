@@ -78,7 +78,7 @@ body {
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   color: #333;
 }
@@ -284,6 +284,7 @@ h2.blue {
 #instalovin p {
   color: whiteSmoke;
   margin-bottom: 10px;
+  font-size: 16px;
 }
 #instalovin .instagram {
   display: inline-block;
