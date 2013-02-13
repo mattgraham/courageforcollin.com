@@ -411,6 +411,10 @@ h2.blue {
   color: #555;
   display: inline-block;
 }
+#news section b {
+  font-weight: bold;
+  color: #b82121;
+}
 #news section .date {
   font-family: "adelle",serif;
   color: #555;
