@@ -18,7 +18,8 @@
 
 body {
 	font-family: "adelle",serif;
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAMUlEQVQIW2Pcr6T0nwEKvv37B2YxwgRhAlxMTBBBZAGwyq0KCmDtIBUwABZEFgBJAADy0xMCfZSkYwAAAABJRU5ErkJggg==);
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAALUlEQVQIW2PUM3P6/+fHJwZkwKilZ/KfhYOPASQBo8GCIFUwARAbv0qYmSAdANkWGdeVyP4xAAAAAElFTkSuQmCC);
+	// background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAMUlEQVQIW2Pcr6T0nwEKvv37B2YxwgRhAlxMTBBBZAGwyq0KCmDtIBUwABZEFgBJAADy0xMCfZSkYwAAAABJRU5ErkJggg==);
 	color: white;
 }
 
@@ -95,11 +96,21 @@ header {
 
 #welcome {
 	text-align: center;
-	margin: 30px auto;
+	margin: 0px auto;
 	padding: 0;
+
 
 	img {
 		max-width: 100%;
+	}
+	p {
+		margin-top: -30px;
+		margin-bottom: 60px;
+		text-decoration: none;
+		color: white;
+		border-top: 1px solid #888b92;
+		padding-top: 20px;
+		font-weight: 100;
 	}
 
 	h2 {
