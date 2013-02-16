@@ -23,7 +23,7 @@ body {
 }
 
 p {
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 20px;
 	color: #333;
 }
@@ -43,6 +43,15 @@ a {
 
 header {
 	padding: 20px;
+	background-color: #212121;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(33, 33, 33)), to(rgb(34, 34, 34)));
+	background-image: -webkit-linear-gradient(top, rgb(33, 33, 33), rgb(34, 34, 34));
+	background-image: -moz-linear-gradient(top, rgb(33, 33, 33), rgb(34, 34, 34));
+	background-image: -o-linear-gradient(top, rgb(33, 33, 33), rgb(34, 34, 34));
+	background-image: -ms-linear-gradient(top, rgb(33, 33, 33), rgb(34, 34, 34));
+	background-image: linear-gradient(top, rgb(33, 33, 33), rgb(34, 34, 34));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#212121', EndColorStr='#222222');
+	@include box-shadow(0 1px 0px #000, 0 1px 3px rgba(#000, .6));
 
 	h1 {
 		font-family: "adelle",serif;
@@ -53,7 +62,7 @@ header {
 
 	nav {
 		text-align: right;
-		font-family: "adelle",serif;
+		font-family: Arial, sans-serif;
  		font-weight: 100;
 
  		ul {
@@ -85,9 +94,13 @@ header {
 }
 
 #welcome {
-	margin-top: 20px;
 	text-align: center;
-	margin-bottom: 40px;
+	margin: 30px auto;
+	padding: 0;
+
+	img {
+		max-width: 100%;
+	}
 
 	h2 {
  		font-family: "adelle",serif;
@@ -96,8 +109,8 @@ header {
 		font-style: italic;
 		letter-spacing: -0.03em;
 		font-weight: 100;
-		padding: 50px 20px 0px;
 		margin-bottom: 30px;
+  	@include text-shadow(0 1px 1px rgba(0,0,0,.5));
 	}
 
 	.button {
@@ -140,6 +153,8 @@ h2 {
 	margin-bottom: -20px;
 	padding: 0 20px;
 	text-align: center;
+	position: relative;
+	top: 15px;
 
 	&.white {
 		background: #fbfbfb;
@@ -164,7 +179,7 @@ h2 {
 
 #story {
 	background: #fbfbfb;
-	padding: 60px 0;
+	padding: 40px 0;
 	overflow: hidden;
 	clear: both;
 	text-align: center;
@@ -195,7 +210,7 @@ h2 {
 	text-align: center;
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #000;
-	padding: 60px 0;
+	padding: 40px 0;
 	clear: both;
 	color: #333;
 
@@ -210,6 +225,7 @@ h2 {
 	p {
 		color: whiteSmoke;
 		margin-bottom: 10px;
+		font-size: 16px;
 	}
 
 	.instagram {
@@ -268,12 +284,12 @@ h2 {
 		}
 }
 
-#twitterigs {
+#twitterings {
 	background: #019ad2;
 	background-image: url('../images/twitter-back.png');
 	background-repeat: no-repeat;
  	background-position: center bottom;
-	padding: 60px 0;
+	padding: 40px 0;
 	overflow: hidden;
 	clear: both;
 	text-align: center;
@@ -318,60 +334,64 @@ h2 {
 	background: #fbfbfb;
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
-	padding: 60px 0;
+	padding: 40px 0;
 	clear: both;
 	overflow: hidden;
 
 	section {
+		padding: 20px;
 		text-align: left;
-		max-width: 470px;
-		float: left;
-		padding: 20px 20px 0 0;
+		font-size: 15px;
+		line-height: 20px;
+		font-family: Arial;
+		color: #555;
+		display: inline-block;
 
-		p {
-			font-size: 12px;
-			line-height: 16px;
-			font-family: Arial;
-			color: #666;
-			margin-top: 10px;
-			float: right;
-
-			.date {
-		 		font-family: "adelle",serif;
-				color: #666;
-				font-size: 17px;
-				line-height: 26px;
-				display: block;
-				font-weight: 300;
-			}
-
-			.title {
-		 		font-family: "adelle",serif;
-				color: #333;
-				font-size: 26px;
-				line-height: 28px;
-				margin-bottom: 10px;
-				display: block;
-			}
-
-			img {
-				margin-right: 20px;
-				margin-bottom: 20px;
-				float: left;
-				max-width: 170px;
-				border: 8px solid #fff;
-				@include border-radius(1px);
-				@include box-shadow(0 0 0 1px #efefef, 0 1px 2px rgba(0,0,0,.4));
-			}
+		b {
+			font-weight: bold;
+		  color: #b82121;
 		}
+
+		.date {
+	 		font-family: "adelle",serif;
+			color: #555;
+			font-size: 18px;
+			line-height: 30px;
+			display: block;
+			font-weight: 500;
+			margin-bottom: 10px;
+		}
+
+		.title {
+	 		font-family: "adelle",serif;
+			color: #b82121;
+			font-size: 32px;
+			line-height: 28px;
+			display: block;
+		}
+
+		img {
+			margin-right: 30px;
+			margin-bottom: 20px;
+			float: left;
+			max-width: 170px;
+			border: 8px solid #fff;
+			@include border-radius(1px);
+			@include box-shadow(0 0 0 1px #efefef, 0 1px 2px rgba(0,0,0,.4));
+		}
+	}
+
+	section + section {
+		@include box-shadow(0 -1px 0px rgba(0,0,0,.2), 0 0px 0 #fff);
+		padding-top: 40px;
 	}
 }
 
 #footer {
 	text-align: center;
 	background: #252525;
-	padding: 20px;
-		line-height: 30px;
+	padding: 10px;
+	line-height: 30px;
 
 	p {
 		font-family: arial;
@@ -385,7 +405,108 @@ h2 {
 	}
 }
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  nav {
+		display: none;
+	}
+
+	header {
+
+		h1 {
+			float: none;
+			text-align: center;
+			width: 100%;
+			margin: 0;
+		}
+	}
+
+	#welcome {
+		padding: 0;
+
+		img {
+			max-width: 130%;
+			margin-left: -15%;
+		}
+
+		h2 {
+			padding: 20px;
+			font-size: 34px;
+			margin: 0;
+			display: inline-block;
+			position: relative;
+			top: -15px;
+		}
+	}
+
+	#story {
+		padding: 10px 0;
+
+		h2 {
+			font-size: 28px;
+		}
+
+		img {
+			width: 100%;
+		}
+	}
+
+	#instalovin {
+		padding: 10px 0;
+
+		h2 {
+			font-size: 28px;
+		}
+
+	 .instagram img {
+			width: 100%;
+			margin-bottom: 1px;
+			float: none;
+			display: block;
+		}
+	}
+
+	#twitterings {
+		padding: 10px 0;
+
+		h2 {
+			font-size: 28px;
+		}
+	}
+
+	#news {
+		padding: 10px 0;
+
+		h2 {
+			font-size: 28px;
+		}
+
+		section {
+			max-width: 100%;
+
+			img {
+				text-align: center;
+				max-width: 100%;
+				float: none;
+				display: block;
+			}
+		}
+	}
+
+	#footer {
+		padding-bottom: 50px;
+	}
+}
+
+
+
 @media all and (max-width: 750px) {
+	header {
+		height: 60px;
+	}
+
   nav {
 		display: none;
 	}

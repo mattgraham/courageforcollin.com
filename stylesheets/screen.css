@@ -78,7 +78,7 @@ body {
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   color: #333;
 }
@@ -98,6 +98,17 @@ a:hover {
 
 header {
   padding: 20px;
+  background-color: #212121;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#212121), to(#222222));
+  background-image: -webkit-linear-gradient(top, #212121, #222222);
+  background-image: -moz-linear-gradient(top, #212121, #222222);
+  background-image: -o-linear-gradient(top, #212121, #222222);
+  background-image: -ms-linear-gradient(top, #212121, #222222);
+  background-image: linear-gradient(top, #212121, #222222);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#212121', EndColorStr='#222222');
+  -webkit-box-shadow: 0 1px 0px black, 0 1px 3px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 1px 0px black, 0 1px 3px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 0px black, 0 1px 3px rgba(0, 0, 0, 0.6);
 }
 header h1 {
   font-family: "adelle",serif;
@@ -107,7 +118,7 @@ header h1 {
 }
 header nav {
   text-align: right;
-  font-family: "adelle",serif;
+  font-family: Arial, sans-serif;
   font-weight: 100;
 }
 header nav ul {
@@ -134,9 +145,12 @@ header nav li a:hover {
 }
 
 #welcome {
-  margin-top: 20px;
   text-align: center;
-  margin-bottom: 40px;
+  margin: 30px auto;
+  padding: 0;
+}
+#welcome img {
+  max-width: 100%;
 }
 #welcome h2 {
   font-family: "adelle",serif;
@@ -145,8 +159,8 @@ header nav li a:hover {
   font-style: italic;
   letter-spacing: -0.03em;
   font-weight: 100;
-  padding: 50px 20px 0px;
   margin-bottom: 30px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
 #welcome .button {
   font-family: "adelle",serif;
@@ -199,6 +213,8 @@ h2 {
   margin-bottom: -20px;
   padding: 0 20px;
   text-align: center;
+  position: relative;
+  top: 15px;
 }
 h2.white {
   background: #fbfbfb;
@@ -220,7 +236,7 @@ h2.blue {
 
 #story {
   background: #fbfbfb;
-  padding: 60px 0;
+  padding: 40px 0;
   overflow: hidden;
   clear: both;
   text-align: center;
@@ -255,7 +271,7 @@ h2.blue {
   text-align: center;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid black;
-  padding: 60px 0;
+  padding: 40px 0;
   clear: both;
   color: #333;
 }
@@ -268,6 +284,7 @@ h2.blue {
 #instalovin p {
   color: whiteSmoke;
   margin-bottom: 10px;
+  font-size: 16px;
 }
 #instalovin .instagram {
   display: inline-block;
@@ -327,23 +344,23 @@ h2.blue {
   background: #f9f9f9;
 }
 
-#twitterigs {
+#twitterings {
   background: #019ad2;
   background-image: url("../images/twitter-back.png");
   background-repeat: no-repeat;
   background-position: center bottom;
-  padding: 60px 0;
+  padding: 40px 0;
   overflow: hidden;
   clear: both;
   text-align: center;
 }
-#twitterigs .title-bar {
+#twitterings .title-bar {
   border-bottom: 1px solid white;
 }
-#twitterigs h2 {
+#twitterings h2 {
   color: #fff;
 }
-#twitterigs p {
+#twitterings p {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
@@ -355,13 +372,13 @@ h2.blue {
   -o-border-radius: 2px;
   border-radius: 2px;
 }
-#twitterigs a {
+#twitterings a {
   color: #33ccff;
 }
-#twitterigs .twitter-follow-button {
+#twitterings .twitter-follow-button {
   margin-top: 20px;
 }
-#twitterigs img {
+#twitterings img {
   float: left;
   width: 32px;
   border: 1px solid white;
@@ -381,42 +398,41 @@ h2.blue {
   background: #fbfbfb;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-  padding: 60px 0;
+  padding: 40px 0;
   clear: both;
   overflow: hidden;
 }
 #news section {
+  padding: 20px;
   text-align: left;
-  max-width: 470px;
-  float: left;
-  padding: 20px 20px 0 0;
-}
-#news section p {
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 15px;
+  line-height: 20px;
   font-family: Arial;
-  color: #666;
-  margin-top: 10px;
-  float: right;
+  color: #555;
+  display: inline-block;
 }
-#news section p .date {
+#news section b {
+  font-weight: bold;
+  color: #b82121;
+}
+#news section .date {
   font-family: "adelle",serif;
-  color: #666;
-  font-size: 17px;
-  line-height: 26px;
+  color: #555;
+  font-size: 18px;
+  line-height: 30px;
   display: block;
-  font-weight: 300;
-}
-#news section p .title {
-  font-family: "adelle",serif;
-  color: #333;
-  font-size: 26px;
-  line-height: 28px;
+  font-weight: 500;
   margin-bottom: 10px;
+}
+#news section .title {
+  font-family: "adelle",serif;
+  color: #b82121;
+  font-size: 32px;
+  line-height: 28px;
   display: block;
 }
-#news section p img {
-  margin-right: 20px;
+#news section img {
+  margin-right: 30px;
   margin-bottom: 20px;
   float: left;
   max-width: 170px;
@@ -430,11 +446,17 @@ h2.blue {
   -moz-box-shadow: 0 0 0 1px #efefef, 0 1px 2px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 0 1px #efefef, 0 1px 2px rgba(0, 0, 0, 0.4);
 }
+#news section + section {
+  -webkit-box-shadow: 0 -1px 0px rgba(0, 0, 0, 0.2), 0 0px 0 white;
+  -moz-box-shadow: 0 -1px 0px rgba(0, 0, 0, 0.2), 0 0px 0 white;
+  box-shadow: 0 -1px 0px rgba(0, 0, 0, 0.2), 0 0px 0 white;
+  padding-top: 40px;
+}
 
 #footer {
   text-align: center;
   background: #252525;
-  padding: 20px;
+  padding: 10px;
   line-height: 30px;
 }
 #footer p {
@@ -447,7 +469,90 @@ h2.blue {
   margin-bottom: -5px;
 }
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  nav {
+    display: none;
+  }
+
+  header h1 {
+    float: none;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  #welcome {
+    padding: 0;
+  }
+  #welcome img {
+    max-width: 130%;
+    margin-left: -15%;
+  }
+  #welcome h2 {
+    padding: 20px;
+    font-size: 34px;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    top: -15px;
+  }
+
+  #story {
+    padding: 10px 0;
+  }
+  #story h2 {
+    font-size: 28px;
+  }
+  #story img {
+    width: 100%;
+  }
+
+  #instalovin {
+    padding: 10px 0;
+  }
+  #instalovin h2 {
+    font-size: 28px;
+  }
+  #instalovin .instagram img {
+    width: 100%;
+    margin-bottom: 1px;
+    float: none;
+    display: block;
+  }
+
+  #twitterings {
+    padding: 10px 0;
+  }
+  #twitterings h2 {
+    font-size: 28px;
+  }
+
+  #news {
+    padding: 10px 0;
+  }
+  #news h2 {
+    font-size: 28px;
+  }
+  #news section {
+    max-width: 100%;
+  }
+  #news section img {
+    text-align: center;
+    max-width: 100%;
+    float: none;
+    display: block;
+  }
+
+  #footer {
+    padding-bottom: 50px;
+  }
+}
 @media all and (max-width: 750px) {
+  header {
+    height: 60px;
+  }
+
   nav {
     display: none;
   }
