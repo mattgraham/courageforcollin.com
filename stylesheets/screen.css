@@ -146,7 +146,7 @@ header nav li a:hover {
 
 #welcome {
   text-align: center;
-  margin: 0px auto;
+  margin: 0 auto 20px;
   padding: 0;
 }
 #welcome p {

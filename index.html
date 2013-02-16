@@ -4,9 +4,10 @@
 	<meta charset="UTF-8">
 	<script type="text/javascript" src="//use.typekit.net/cuc6ksk.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
   <meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="stylesheets/screen.css" />
+	<link rel="stylesheet" href="stylesheets/slides.css" />
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -54,8 +55,7 @@
 	  })
 	});
 	</script>
-
-  <script src="javascript/jquery.instagram.js"></script>
+	<script src="javascript/jquery.instagram.js"></script>
 </head>
 	<body>
 		<header>
@@ -66,17 +66,21 @@
 				<li><a href="#instalovin">Insta'lovin</a></li>
 				<li><a href="#twitterings">Twitter'ings</a></li>
 				<li><a href="#news">News &amp Events</a></li>
-<!-- 				<li><a href="#">Donate Now</a></li> -->
 			</nav>
 			</div>
 		</header>
 		<div id="welcome" class="nine60">
 		<div id="iewarning">You are using Internet Explorer, possibly the worst web browser ever created. To experience this site and most of the web to its fullest we recomend you use <a href="http://www.google.com/chrome" target="_blank">Chrome</a>, <a href="http://www.mozilla.org/en-US/firefox/new/" target="_blank">Firefox</a>, or <a href="http://www.apple.com/safari/" target="_blank">Safari</a>.</div>
 			<div class="nine60">
-				<a href="#valentines"><img src="/images/header-valentines-ty.png"></a>
-				<p>The Valentines for Vani event was a great success! Remember to tag your photos on instagram &amp twitter with #courageforcollin &amp we look forward to seeing you at the bowling event in March.</p>
-<!-- 			<h2>Our buddy Collin is battling cancer,  that means we are also.</h2>
- -->			<!-- <span class="button">Donate Now</span> -->
+		  <!-- The container is used to define the width of the slideshow -->
+		  <div class="container">
+		    <div id="slides">
+		      <a href="#valentines"><img src="/images/header-valentines-ty.png"></a>
+		      <a href="#bowling"><img src="/images/header-bowling.png"></a>
+		    </div>
+		  </div>
+		  <!-- End SlidesJS Required: Start Slides -->
+
 		</div>
 
 		</div>
@@ -161,6 +165,28 @@
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 			</div>
 		</div>
+
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="/javascript/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 900,
+        height: 320,
+        play: {
+          active: true,
+          auto: true,
+          interval: 14000,
+          swap: true
+        }
+      });
+    });
+  </script>
+  <!-- End SlidesJS Required -->
+
 		<script type="text/javascript">
 		  var _gauges = _gauges || [];
 		  (function() {
