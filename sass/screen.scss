@@ -419,6 +419,7 @@ h2 {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
+
   nav {
 		display: none;
 	}
@@ -434,12 +435,6 @@ and (max-device-width : 480px) {
 	}
 
 	#welcome {
-		padding: 0;
-
-		img {
-			max-width: 130%;
-			margin-left: -15%;
-		}
 
 		h2 {
 			padding: 20px;

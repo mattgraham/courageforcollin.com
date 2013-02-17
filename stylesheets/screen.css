@@ -490,13 +490,6 @@ h2.blue {
     margin: 0;
   }
 
-  #welcome {
-    padding: 0;
-  }
-  #welcome img {
-    max-width: 130%;
-    margin-left: -15%;
-  }
   #welcome h2 {
     padding: 20px;
     font-size: 34px;

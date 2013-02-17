@@ -89,47 +89,46 @@
 
     #slides a:link,
     #slides a:visited {
-      color: #333
+      color: #333;
     }
 
     #slides a:hover,
     #slides a:active {
-      color: #9e2020
+      color: #9e2020;
     }
 
     .navbar {
-      overflow: hidden
+      overflow: hidden;
     }
 
     #slides {
-      display: none
+      display: none;
     }
 
     .container {
-      margin: 0 auto
+      margin: 0 auto;
     }
 
     /* For tablets & smart phones */
     @media (max-width: 767px) {
-      body {
 
-      }
       .container {
-        width: auto
+        width: auto;
       }
     }
 
     /* For smartphones */
     @media (max-width: 480px) {
+
       .container {
-        width: auto
+        width: auto;
       }
     }
 
     /* For smaller displays like laptops */
     @media (min-width: 768px) and (max-width: 979px) {
       .container {
-        width: 724px
+        width: 724px;
       }
     }
 .slidesjs-navigation {
