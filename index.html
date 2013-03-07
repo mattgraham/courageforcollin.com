@@ -1,62 +1,61 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<script type="text/javascript" src="//use.typekit.net/cuc6ksk.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-	<link rel="stylesheet" href="stylesheets/screen.css" />
-	<link rel="stylesheet" href="stylesheets/slides.css" />
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=252447711526668";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-	<!--[if IE]>
-	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<link rel="stylesheet" href="stylesheets/ie8-and-down.css" />
-	<![endif]-->
-
-	<script type="text/javascript">
-	$(function(){
-	  var
-	    insta_container = $(".instagram")
-	  , insta_next_url
-
-	  insta_container.instagram({
-	      hash: 'courageforcollin'
-	    , clientId : '457f784dbf5b4580a4c256f84911cbc6'
-	    , show : 21
-	    , onComplete : function (photos, data) {
-	      insta_next_url = data.pagination.next_url
-	    }
-	  })
-
-	  $('button').on('click', function(){
-	    var
-	      button = $(this)
-	    , text = button.text()
-
-	    if (button.text() != 'Loading...'){
-	      button.text('Loading...')
-	      insta_container.instagram({
-	          next_url : insta_next_url
-	        , show : 15
-	        , onComplete : function(photos, data) {
-	          insta_next_url = data.pagination.next_url
-	          button.text(text)
-	        }
-	      })
-	    }
-	  })
-	});
-	</script>
-	<script src="javascript/jquery.instagram.js"></script>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="//use.typekit.net/cuc6ksk.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/screen.css" />
+    <link rel="stylesheet" href="stylesheets/slides.css" />
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=252447711526668";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="stylesheets/ie8-and-down.css" />
+    <![endif]-->
+    <script type="text/javascript">
+        $(function(){
+          var
+              insta_container = $(".instagram")
+              , insta_next_url
+              
+              insta_container.instagram({
+                hash: 'courageforcollin'
+                , clientId : '457f784dbf5b4580a4c256f84911cbc6'
+                , show : 21
+                , onComplete : function (photos, data) {
+                  insta_next_url = data.pagination.next_url
+                }
+              })
+                
+                $('button').on('click', function(){
+                  var
+                      button = $(this)
+                      , text = button.text()
+                      
+                      if (button.text() != 'Loading...'){
+                        button.text('Loading...')
+                          insta_container.instagram({
+                            next_url : insta_next_url
+                            , show : 15
+                            , onComplete : function(photos, data) {
+                              insta_next_url = data.pagination.next_url
+                                button.text(text)
+                            }
+                          })
+                      }
+                })
+        });
+    </script>
+    <script src="javascript/jquery.instagram.js"></script>
+  </head>
 	<body>
 		<header>
 			<div class="nine60">
