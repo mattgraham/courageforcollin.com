@@ -18,12 +18,12 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font: inherit;
   font-size: 100%;
+  font: inherit;
   vertical-align: baseline;
 }
 
-html {
+body {
   line-height: 1;
 }
 
@@ -135,9 +135,9 @@ header nav li a {
   color: whiteSmoke;
   text-decoration: none;
   border-bottom: 1px dotted;
-  transition: all 0.15s ease-in-out;
-  -moz-transition: all 0.15s ease-in-out;
-  -webkit-transition: all 0.15s ease-in-out;
+  transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -webkit-transition: all .15s ease-in-out;
   margin: 0px;
 }
 header nav li a:hover {
@@ -159,6 +159,7 @@ header nav li a:hover {
 }
 #welcome img {
   max-width: 100%;
+  margin-bottom: -22px;
 }
 #welcome h2 {
   font-family: "adelle",serif;
@@ -174,7 +175,7 @@ header nav li a:hover {
   font-family: "adelle",serif;
   font-size: 20px;
   font-weight: 300;
-  text-shadow: 0 1px black;
+  text-shadow: 0 1px #000;
   padding: 18px 35px;
   background: blue;
   display: block;
@@ -184,6 +185,7 @@ header nav li a:hover {
   background-image: -webkit-linear-gradient(top, #247acb, #125897);
   background-image: -moz-linear-gradient(top, #247acb, #125897);
   background-image: -o-linear-gradient(top, #247acb, #125897);
+  background-image: -ms-linear-gradient(top, #247acb, #125897);
   background-image: linear-gradient(top, #247acb, #125897);
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF247ACB', endColorstr='#FF125897');
@@ -195,9 +197,9 @@ header nav li a:hover {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
-  transition: background 0.25s ease-in-out;
-  -moz-transition: background 0.25s ease-in-out;
-  -webkit-transition: background 0.25s ease-in-out;
+  transition: background .25s ease-in-out;
+  -moz-transition: background .25s ease-in-out;
+  -webkit-transition: background .25s ease-in-out;
 }
 #welcome .button:hover {
   background: #247acb;
@@ -259,7 +261,7 @@ h2.blue {
 #story img {
   float: left;
   width: 225px;
-  border: 8px solid white;
+  border: 8px solid #fff;
   margin: 0 30px 20px 0;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -277,14 +279,14 @@ h2.blue {
   background-repeat: no-repeat;
   background-position: center bottom;
   text-align: center;
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid black;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #000;
   padding: 40px 0;
   clear: both;
   color: #333;
 }
 #instalovin .title-bar {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #fff;
 }
 #instalovin h2 {
   color: #fff;
@@ -300,12 +302,16 @@ h2.blue {
   background: #f9f9f9;
   margin: 20px 0 0;
   padding: 20px;
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   -moz-border-radius-topleft: 3px;
   -webkit-border-top-left-radius: 3px;
+  -ms-border-top-left-radius: 3px;
+  -o-border-top-left-radius: 3px;
   border-top-left-radius: 3px;
   -moz-border-radius-topright: 3px;
   -webkit-border-top-right-radius: 3px;
+  -ms-border-top-right-radius: 3px;
+  -o-border-top-right-radius: 3px;
   border-top-right-radius: 3px;
 }
 #instalovin .instagram p {
@@ -320,9 +326,9 @@ h2.blue {
   margin: 0;
   padding: 0px;
   opacity: .90;
-  transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -webkit-transition: all 0.25s ease-in-out;
+  transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -webkit-transition: all .25s ease-in-out;
 }
 #instalovin .instagram img:hover {
   opacity: 1;
@@ -333,17 +339,21 @@ h2.blue {
   display: inline-block;
   padding: 15px 0;
   border: none;
-  border: 1px solid #cccccc;
-  border-top: 1px solid white;
+  border: 1px solid #ccc;
+  border-top: 1px solid #fff;
   -moz-border-radius-bottomleft: 3px;
   -webkit-border-bottom-left-radius: 3px;
+  -ms-border-bottom-left-radius: 3px;
+  -o-border-bottom-left-radius: 3px;
   border-bottom-left-radius: 3px;
   -moz-border-radius-bottomright: 3px;
   -webkit-border-bottom-right-radius: 3px;
+  -ms-border-bottom-right-radius: 3px;
+  -o-border-bottom-right-radius: 3px;
   border-bottom-right-radius: 3px;
-  transition: background 0.25s ease-in-out;
-  -moz-transition: background 0.25s ease-in-out;
-  -webkit-transition: background 0.25s ease-in-out;
+  transition: background .25s ease-in-out;
+  -moz-transition: background .25s ease-in-out;
+  -webkit-transition: background .25s ease-in-out;
   font-size: 20px;
   font-family: "adelle",serif;
   margin-top: -3px;
@@ -363,7 +373,7 @@ h2.blue {
   text-align: center;
 }
 #twitterings .title-bar {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #fff;
 }
 #twitterings h2 {
   color: #fff;
@@ -389,7 +399,7 @@ h2.blue {
 #twitterings img {
   float: left;
   width: 32px;
-  border: 1px solid white;
+  border: 1px solid #fff;
   margin: 0 30px 20px 0;
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
@@ -404,8 +414,8 @@ h2.blue {
 #news {
   text-align: center;
   background: #fbfbfb;
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
   padding: 40px 0;
   clear: both;
   overflow: hidden;
@@ -444,7 +454,7 @@ h2.blue {
   margin-bottom: 20px;
   float: left;
   max-width: 170px;
-  border: 8px solid white;
+  border: 8px solid #fff;
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
   -ms-border-radius: 1px;
@@ -478,7 +488,9 @@ h2.blue {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
   nav {
     display: none;
   }
